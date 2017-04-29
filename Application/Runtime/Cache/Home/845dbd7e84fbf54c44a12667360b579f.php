@@ -68,11 +68,18 @@
                         <a href="<?php echo U('About/index');?>">About</a>
                     </li>
                     <li>
-                        <a href="<?php echo U('Post/index');?>">Post</a>
-                    </li>
-                    <li>
                         <a href="<?php echo U('Contact/index');?>">Contact</a>
                     </li>
+                    <?php if($isadmin == true): ?><li>
+                            <a href="<?php echo U('Post/index');?>">Post</a>
+                        </li><?php endif; ?>
+                    <?php if(empty($nickname)): ?><li>
+                            <a href="<?php echo U('Index/login');?>">Login</a>
+                        </li>
+                        <?php else: ?>
+                        <li>
+                            <a href="<?php echo U('Index/logout');?>">Logout</a>
+                        </li><?php endif; ?>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -89,14 +96,14 @@
                     <div class="post-heading">
                         <h1>Man must explore, and this is exploration at its greatest</h1>
                         <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
-                        <span class="meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</span>
+                        <span class="meta">Posted by <a href="#">skiwer</a> on August 24, 2014</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <form class="form-horizontal" role="form" method="post" action="<?php echo U('Post/post');?>" onsubmit="return validate(this);">
+    <form class="form-horizontal" role="form">
         <div class="form-group">
             <label for="title" class="col-sm-2 control-label">文章标题：</label>
             <div class="col-sm-8">
@@ -130,7 +137,7 @@
         </div>
         <div class="form-group">
             <div class="col-sm-offset-6 col-sm-6">
-                <button type="submit" class="btn btn-default">提交</button>
+                <button id="submit" class="btn btn-default">提交</button>
             </div>
         </div>
     </form>
@@ -182,30 +189,52 @@
             var html = converter.makeHtml(text);
             document.getElementById("preview").innerHTML = html;
         }
-
-        function validate(form) {
-            if (form.title.value == "") {
-                alert("请输入标题！");
-                return false;
-            } else if (form.tag.value == "") {
-                alert("请输入标签！");
-                return false;
-            } else if (form.outline.value == "") {
-                alert("请输入文章概要！");
-                return false;
-            } else if (form.content.value == "") {
-                alert("请输入文章内容！");
-                return false;
-            } else {
-                form.content.value = document.getElementById("preview").innerHTML;
-                form.submit();
-                return true;
-            }
-        }
     </script>
 
     <!-- jQuery -->
     <script src="/static/vendor/jquery/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $("#submit").click(function(e) {
+            e.preventDefault();
+            var title = $("#title").val();
+            var tag = $("#tag").val();
+            var outline = $("#outline").val();
+            var content = $("#textInput").val();
+            console.log(title, tag, outline, content);
+            console.log("dsadasd");
+            if (title == "") {
+                alert("请输入标题！");
+                return;
+            } else if (tag == "") {
+                alert("请输入标题！");
+                return;
+            } else if (outline == "") {
+                alert("请输入标题！");
+                return;
+            } else if (content == "") {
+                alert("请输入标题！");
+                return;
+            } else {
+                var formData = $("form").serialize();
+                var markdownData = $("#preview").html();
+                var data = formData + "&markdownContent=" + markdownData;
+                console.log(data);
+                $.ajax({
+                    type: "POST",
+                    url: '<?php echo U("Post/post");?>',
+                    data: data
+                }).done(function(msg) {
+                    if (msg) {
+                        alert("发布成功！");
+                        window.location.href = '<?php echo U("Index/index");?>';
+                    } else {
+                        alert("发布失败！");
+                    }
+                });
+            }
+        });
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>

@@ -45,12 +45,27 @@
             border-radius: 2px;
         }
         
-        .view,
+        .interact {
+            cursor: default;
+        }
+        
         .like,
         .comment {
             cursor: pointer;
             text-decoration: none;
             margin-right: 10px;
+        }
+        
+        .view {
+            cursor: default;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        
+        .view:hover,
+        .like:hover,
+        .comment:hover {
+            text-decoration: none;
         }
         
         .view>span,
@@ -62,7 +77,11 @@
             margin-left: 6px;
         }
         
-        .like:hover .glyphicon-heart-empty {
+        .like:hover>.glyphicon-heart-empty {
+            font-size: 18px;
+        }
+        
+        .like:hover>.glyphicon-heart {
             font-size: 18px;
         }
         
@@ -96,11 +115,18 @@
                         <a href="<?php echo U('About/index');?>">About</a>
                     </li>
                     <li>
-                        <a href="<?php echo U('Post/index');?>">Post</a>
-                    </li>
-                    <li>
                         <a href="<?php echo U('Contact/index');?>">Contact</a>
                     </li>
+                    <?php if($isadmin == true): ?><li>
+                            <a href="<?php echo U('Post/index');?>">Post</a>
+                        </li><?php endif; ?>
+                    <?php if(empty($nickname)): ?><li>
+                            <a href="<?php echo U('Index/login');?>">Login</a>
+                        </li>
+                        <?php else: ?>
+                        <li>
+                            <a href="<?php echo U('Index/logout');?>">Logout</a>
+                        </li><?php endif; ?>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -128,7 +154,7 @@
     <div class="container">
         <div class="row">
             <div id="main" class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <?php if(is_array($outlines)): $k = 0; $__LIST__ = $outlines;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($k % 2 );++$k;?><div class="post-preview">
+                <?php if(is_array($outlines)): $k = 0; $__LIST__ = $outlines;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($k % 2 );++$k;?><div class="post-preview" id="<?php echo ($v["id"]); ?>">
                         <a href="<?php echo U('ShowArticle/show','id='.$v['id']);?>">
                             <h2 class="post-title">
                                 <?php echo ($v["title"]); ?>
@@ -141,10 +167,14 @@
 	                        <span class="glyphicon glyphicon-tags"></span> <?php echo ($v["tag"]); ?>
                         </button>
                         <p class="post-meta">Posted by <a href="#">Skiwer</a> on <?php echo ($v["date"]); ?></p>
-                        <div>
-                            <a class="view diabled"><span class="glyphicon glyphicon-eye-open"></span><span class="viewNumber">200<span></a>
-                            <a class="like"><span class="glyphicon glyphicon-heart-empty"></span><span class="likeNumber">2</a>
-                            <a class="comment"><span class="glyphicon glyphicon-comment"></span><span class="commentNumber">2</a>
+                        <div class="interact">
+                            <a class="view diabled"><span class="glyphicon glyphicon-eye-open"></span><span class="viewNumber"><?php echo ($v["view_number"]); ?><span></a>
+                            <a class="like">
+                                <?php if($v['liked'] == true): ?><span class="glyphicon glyphicon-heart"></span>
+                                    <?php else: ?>
+                                    <span class="glyphicon glyphicon-heart-empty"></span><?php endif; ?>
+                                <span class="likeNumber"><?php echo ($v["like_number"]); ?></a>
+                            <a id="<?php echo ($v["id"]); ?>" class="comment"><span class="glyphicon glyphicon-comment"></span><span class="commentNumber"><?php echo ($v["comment_number"]); ?></a>
                         </div>
                     </div>
                     <hr><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -175,42 +205,62 @@
                                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                                 </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                                 </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
-                </div>
+                                </a>
+                            </li>
+                            </ul>
+                            <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                        </div>
+                    </div>
             </div>
-        </div>
-    </footer>
+            </footer>
 
-    <!-- jQuery -->
-    <script src="/static/vendor/jquery/jquery.min.js"></script>
+            <!-- jQuery -->
+            <script src="/static/vendor/jquery/jquery.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+            <!-- Bootstrap Core JavaScript -->
+            <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="/static/js/jqBootstrapValidation.js"></script>
-    <script src="/static/js/contact_me.js"></script>
+            <script type="text/javascript">
+                var likeurl = "<?php echo U('Index/like');?>";
+                var logurl = "<?php echo U('Index/login');?>";
+                var logedurl = "<?php echo U('Index/hasloged');?>";
+                $(".comment").click(function() {
+                    var id = $(this).attr("id");
+                    var url = "<?php echo U('showArticle/show');?>?id=" + id;
+                    $.ajax({
+                        type: "GET",
+                        url: logedurl
+                    }).done(function(status) {
+                        if (!status) {
+                            window.location.href = logurl;
+                        } else {
+                            window.location.href = url + '#com';
+                        }
+                    });
+                });
+            </script>
+            <script src="/static/js/home.js"></script>
+            <!-- Contact Form JavaScript -->
+            <script src="/static/js/jqBootstrapValidation.js"></script>
+            <script src="/static/js/contact_me.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="/static/js/clean-blog.min.js"></script>
+            <!-- Theme JavaScript -->
+            <script src="/static/js/clean-blog.min.js"></script>
 
 </body>
 

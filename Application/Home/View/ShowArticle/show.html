@@ -17,6 +17,7 @@
     <!-- Theme CSS -->
     <link href="__ROOT__/static/css/clean-blog.css" rel="stylesheet">
 
+    <link href='__ROOT__/static/css/show.css' rel='stylesheet' type='text/css'>
     <!-- Custom Fonts -->
     <link href="__ROOT__/static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='__ROOT__/static/css/font.css' rel='stylesheet' type='text/css'>
@@ -28,19 +29,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style>
-        #title,
-        #date,
-        #content {
-            margin-top: 30px;
-            word-break: break-all;
-        }
-        
-        #title,
-        #date {
-            text-align: center;
-        }
-    </style>
+
 </head>
 
 <body>
@@ -67,11 +56,22 @@
                         <a href="{:U('About/index')}">About</a>
                     </li>
                     <li>
-                        <a href="{:U('Post/index')}">Sample Post</a>
-                    </li>
-                    <li>
                         <a href="{:U('Contact/index')}">Contact</a>
                     </li>
+                    <if condition="$isadmin eq true">
+                        <li>
+                            <a href="{:U('Post/index')}">Post</a>
+                        </li>
+                    </if>
+                    <empty name="nickname">
+                        <li>
+                            <a href="{:U('Index/login')}">Login</a>
+                        </li>
+                        <else />
+                        <li>
+                            <a href="{:U('Index/logout')}">Logout</a>
+                        </li>
+                    </empty>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -101,15 +101,121 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <h1 id="title">{$detail["title"]}</h1>
-                    <div id="date">{$detail["date"]}</div>
+                    <div class="info">
+                        <span class="date">{$detail["date"]}</span>
+                        <span class="tag">分类：{$detail["tag"]}</span>
+                        <span class="like">阅读(<span class="view-number">{$detail["view_number"]}</span>)</span>
+                        <span class="like">赞({$detail["like_number"]})</span>
+                        <span class="comment">评论(<span class="comment-number">{$detail["comment_number"]}</span>)</span>
+                    </div>
                     <div id="content">{$detail["content"]}</div>
                 </div>
             </div>
         </div>
     </article>
 
-    <hr>
 
+    <article>
+        <div class="container">
+            <div class="row" id="com">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <h1 id="Ctitle">评论<span id="Cnumber">{$detail["comment_number"]}</span></h1>
+                    <hr>
+                    <div class="box">
+                        <div class="head">
+                            <empty name="nickname">
+                                <img src="__ROOT__/static/img/dabai.jpg" alt="figure" />
+                                <else />
+                                <img src="{$figure}" alt="figure" />
+                            </empty>
+                        </div>
+                        <div class="cmt">
+                            <textarea onfocus="javascript:checkLog()" id="main-comment" placeholder="你的评论可以一针见血" name="comment" class="comment" cols="100%" rows="3" tabindex="1"></textarea>
+                            <div class="sbm" id="main-submit">
+                                <button type="button" onclick="mainCommentSubmit()" class="btn btn-default btn-xs submit">提交评论</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" id="postComments">
+                    <volist name="comments" id="value" key="key">
+                        <div class="commentList">
+                            <div class="cmt-main">
+                                <span class="seq">{:count($comments)-$key+1}楼</span>
+                                <div class="head">
+                                    <img src="{$value['figure_url']}" alt="figure" />
+                                </div>
+                                <div class="cmt-content">{$value["comment"]}</div>
+                                <div class="cmt-meta">
+                                    <span class="main-user">{$value["u_nickname"]}</span>
+                                    <span class="main-date">{$value["date"]}</span>
+                                    <span class="main-post-cmt" id="main-{$value['id']}" onclick="javascript:showMainFrame(this)">回复</span>
+                                </div>
+
+                            </div>
+                            <notempty name="value['subComments']">
+                                <div class="cmt-children">
+                                    <volist name="value['subComments']" id="v" key="k">
+                                        <div class="cmt-child">
+                                            <hr>
+                                            <div class="child-head">
+                                                <img src="{$v['figure_from']}" alt="figure" />
+                                            </div>
+                                            <div class="child-content">{$v["comment"]}</div>
+                                            <div class="child-meta">
+                                                <span class="answerby">{$v["u_nickname_from"]}</span>
+                                                <span>回复</span>
+                                                <span class="answerto">{$v["u_nickname_to"]}</span>
+                                                <span class="child-date">{$v["date"]}</span>
+                                                <if condition="$v['is_from_main'] eq 1">
+                                                    <span class="child-post-cmt" id="frommain-{$v['id']}" onclick="javascript:showSubFrame(this)">回复</span>
+                                                    <else />
+                                                    <span class="child-post-cmt" id="fromsub-{$v['id']}" onclick="javascript:showSubFrame(this)">回复</span>
+                                                </if>
+
+                                            </div>
+
+                                        </div>
+                                    </volist>
+                                </div>
+                            </notempty>
+                            <hr>
+                        </div>
+                    </volist>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <div class="rollbar" style="display: block;">
+        <ul>
+            <li>
+                <a href="#com">
+                    <i class="fa fa-comments"></i>
+                </a>
+                <h6>去评论<i></i></h6>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-angle-up"></i>
+                </a>
+                <h6>去顶部<i></i></h6>
+            </li>
+        </ul>
+    </div>
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -152,7 +258,16 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="__ROOT__/static/vendor/bootstrap/js/bootstrap.min.js"></script>
-
+    <script type="text/javascript">
+        var root = "__ROOT__";
+        var logurl = "{:U('Index/hasloged')}";
+        var loginurl = "{:U('Index/login')}";
+        var mainUrl = "{:U('ShowArticle/maincomment')}";
+        var subUrl = "{:U('ShowArticle/subcomment')}";
+        var articleId = "{$detail['id']}";
+        var viewurl = "{:U('ShowArticle/addpageview')}";
+    </script>
+    <script src="__ROOT__/static/js/show.js"></script>
     <!-- Contact Form JavaScript -->
     <script src="__ROOT__/static/js/jqBootstrapValidation.js"></script>
     <script src="__ROOT__/static/js/contact_me.js"></script>

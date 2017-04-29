@@ -42,7 +42,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="<?php echo U('Index/index');?>">Start Bootstrap</a>
+                <a class="navbar-brand" href="<?php echo U('Index/index');?>">Skiwer</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -55,11 +55,18 @@
                         <a href="<?php echo U('About/index');?>">About</a>
                     </li>
                     <li>
-                        <a href="<?php echo U('Post/index');?>">Post</a>
-                    </li>
-                    <li>
                         <a href="<?php echo U('Contact/index');?>">Contact</a>
                     </li>
+                    <?php if($isadmin == true): ?><li>
+                            <a href="<?php echo U('Post/index');?>">Post</a>
+                        </li><?php endif; ?>
+                    <?php if(empty($nickname)): ?><li>
+                            <a href="<?php echo U('Index/login');?>">Login</a>
+                        </li>
+                        <?php else: ?>
+                        <li>
+                            <a href="<?php echo U('Index/logout');?>">Logout</a>
+                        </li><?php endif; ?>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

@@ -55,11 +55,22 @@
                         <a href="{:U('About/index')}">About</a>
                     </li>
                     <li>
-                        <a href="{:U('Post/index')}">Post</a>
-                    </li>
-                    <li>
                         <a href="{:U('Contact/index')}">Contact</a>
                     </li>
+                    <if condition="$isadmin eq true">
+                        <li>
+                            <a href="{:U('Post/index')}">Post</a>
+                        </li>
+                    </if>
+                    <empty name="nickname">
+                        <li>
+                            <a href="{:U('Index/login')}">Login</a>
+                        </li>
+                        <else />
+                        <li>
+                            <a href="{:U('Index/logout')}">Logout</a>
+                        </li>
+                    </empty>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

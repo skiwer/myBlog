@@ -45,12 +45,27 @@
             border-radius: 2px;
         }
         
-        .view,
+        .interact {
+            cursor: default;
+        }
+        
         .like,
         .comment {
             cursor: pointer;
             text-decoration: none;
             margin-right: 10px;
+        }
+        
+        .view {
+            cursor: default;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        
+        .view:hover,
+        .like:hover,
+        .comment:hover {
+            text-decoration: none;
         }
         
         .view>span,
@@ -62,7 +77,11 @@
             margin-left: 6px;
         }
         
-        .like:hover .glyphicon-heart-empty {
+        .like:hover>.glyphicon-heart-empty {
+            font-size: 18px;
+        }
+        
+        .like:hover>.glyphicon-heart {
             font-size: 18px;
         }
         
@@ -96,11 +115,22 @@
                         <a href="{:U('About/index')}">About</a>
                     </li>
                     <li>
-                        <a href="{:U('Post/index')}">Post</a>
-                    </li>
-                    <li>
                         <a href="{:U('Contact/index')}">Contact</a>
                     </li>
+                    <if condition="$isadmin eq true">
+                        <li>
+                            <a href="{:U('Post/index')}">Post</a>
+                        </li>
+                    </if>
+                    <empty name="nickname">
+                        <li>
+                            <a href="{:U('Index/login')}">Login</a>
+                        </li>
+                        <else />
+                        <li>
+                            <a href="{:U('Index/logout')}">Logout</a>
+                        </li>
+                    </empty>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -129,7 +159,7 @@
         <div class="row">
             <div id="main" class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <volist name="outlines" id="v" key="k">
-                    <div class="post-preview">
+                    <div class="post-preview" id="{$v.id}">
                         <a href="{:U('ShowArticle/show','id='.$v['id'])}">
                             <h2 class="post-title">
                                 {$v.title}
@@ -142,10 +172,16 @@
 	                        <span class="glyphicon glyphicon-tags"></span> {$v.tag}
                         </button>
                         <p class="post-meta">Posted by <a href="#">Skiwer</a> on {$v.date}</p>
-                        <div>
-                            <a class="view diabled"><span class="glyphicon glyphicon-eye-open"></span><span class="viewNumber">200<span></a>
-                            <a class="like"><span class="glyphicon glyphicon-heart-empty"></span><span class="likeNumber">2</a>
-                            <a class="comment"><span class="glyphicon glyphicon-comment"></span><span class="commentNumber">2</a>
+                        <div class="interact">
+                            <a class="view diabled"><span class="glyphicon glyphicon-eye-open"></span><span class="viewNumber">{$v.view_number}<span></a>
+                            <a class="like">
+                                <if condition="$v['liked'] eq true">
+                                    <span class="glyphicon glyphicon-heart"></span>
+                                    <else />
+                                    <span class="glyphicon glyphicon-heart-empty"></span>
+                                </if>
+                                <span class="likeNumber">{$v.like_number}</a>
+                            <a id="{$v.id}" class="comment"><span class="glyphicon glyphicon-comment"></span><span class="commentNumber">{$v.comment_number}</a>
                         </div>
                     </div>
                     <hr>
@@ -177,42 +213,62 @@
                                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                                 </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                                 </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
-                </div>
+                                </a>
+                            </li>
+                            </ul>
+                            <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                        </div>
+                    </div>
             </div>
-        </div>
-    </footer>
+            </footer>
 
-    <!-- jQuery -->
-    <script src="__ROOT__/static/vendor/jquery/jquery.min.js"></script>
+            <!-- jQuery -->
+            <script src="__ROOT__/static/vendor/jquery/jquery.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="__ROOT__/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+            <!-- Bootstrap Core JavaScript -->
+            <script src="__ROOT__/static/vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="__ROOT__/static/js/jqBootstrapValidation.js"></script>
-    <script src="__ROOT__/static/js/contact_me.js"></script>
+            <script type="text/javascript">
+                var likeurl = "{:U('Index/like')}";
+                var logurl = "{:U('Index/login')}";
+                var logedurl = "{:U('Index/hasloged')}";
+                $(".comment").click(function() {
+                    var id = $(this).attr("id");
+                    var url = "{:U('showArticle/show')}?id=" + id;
+                    $.ajax({
+                        type: "GET",
+                        url: logedurl
+                    }).done(function(status) {
+                        if (!status) {
+                            window.location.href = logurl;
+                        } else {
+                            window.location.href = url + '#com';
+                        }
+                    });
+                });
+            </script>
+            <script src="__ROOT__/static/js/home.js"></script>
+            <!-- Contact Form JavaScript -->
+            <script src="__ROOT__/static/js/jqBootstrapValidation.js"></script>
+            <script src="__ROOT__/static/js/contact_me.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="__ROOT__/static/js/clean-blog.min.js"></script>
+            <!-- Theme JavaScript -->
+            <script src="__ROOT__/static/js/clean-blog.min.js"></script>
 
 </body>
 

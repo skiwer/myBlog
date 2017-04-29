@@ -1,0 +1,286 @@
+#title,
+#date,
+#content {
+    margin-top: 30px;
+    word-break: break-all;
+}
+
+#title,
+.info {
+    text-align: center;
+}
+
+.info>span {
+    margin-left: 20px;
+    font-size: 15px;
+    color: #999;
+}
+
+
+/*#Ctitle{
+
+        }*/
+
+#Cnumber {
+    margin-left: 10px;
+}
+
+#com>.box {
+    width: 750px;
+}
+
+#postComments>.box {
+    width: 665px;
+}
+
+.head {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    margin-left: 0;
+    border-radius: 50%;
+}
+
+.head>img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.cmt {
+    margin-left: 45px;
+    padding: 4px 0 0 0;
+    border: 2px solid #ccd4d9;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.comment {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+    color: #666;
+    background-color: transparent;
+}
+
+.sbm {
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-align: right;
+    background-color: #f6f6f6;
+}
+
+.submit {
+    font-size: 15px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    background-color: #45B6F7;
+    color: #fff;
+    outline: none;
+}
+
+.sbm>.submit:hover,
+.sbm>.submit:active,
+.sbm>.submit:focus {
+    background-color: #0085A1;
+    color: #fff;
+    border: none !important;
+}
+
+
+/*评论列表*/
+
+#postComments {
+    margin-top: 50px;
+}
+
+.commentList {
+    margin-top: 50px;
+    color: #555;
+}
+
+.cmt-content {
+    width: 100%;
+    margin-left: 45px;
+    line-height: 30px;
+    word-break: break-all;
+}
+
+.cmt-meta {
+    width: 100%;
+    margin-left: 45px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #bbb;
+}
+
+.seq {
+    float: right;
+    margin-right: 0;
+    font-size: 16px;
+    color: #ccc;
+}
+
+.cmt-children {
+    margin-left: 40px;
+    word-break: break-all;
+}
+
+.child-head {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.child-head>img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.child-content {
+    width: 665px;
+    margin-left: 45px;
+    line-height: 30px;
+    word-break: break-all;
+}
+
+.child-meta {
+    width: 100%;
+    margin-left: 45px;
+    font-size: 12px;
+    color: #bbb;
+}
+
+.main-date,
+.child-date,
+.main-post-cmt,
+.child-post-cmt {
+    margin-left: 20px;
+}
+
+.main-post-cmt,
+.child-post-cmt {
+    cursor: pointer;
+}
+
+.main-post-cmt:hover,
+.child-post-cmt:hover {
+    color: #45B6F7;
+}
+
+
+/*控制页面位置*/
+
+.rollbar {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    display: none;
+}
+
+.rollbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 50px;
+}
+
+.rollbar li {
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.rollbar a {
+    position: relative;
+    z-index: 2;
+    display: block;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #666;
+    color: #fff;
+}
+
+:before,
+ :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fa-angle-up:before {
+    content: "\f106";
+}
+
+.fa-comments:before {
+    content: "\f086";
+}
+
+.rollbar li:hover h6 {
+    right: 100%;
+}
+
+.rollbar li:hover,
+.rollbar li:hover h6 {
+    opacity: .9;
+    filter: alpha(opacity=90);
+}
+
+.rollbar .fa-comments {
+    font-size: 24px;
+}
+
+.rollbar .fa {
+    line-height: 50px;
+    font-size: 34px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.rollbar h6 {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    right: -15%;
+    margin: -13px 10px 0 0;
+    line-height: 26px;
+    font-size: 12px;
+    background-color: #666;
+    color: #fff;
+    width: 53px;
+    border-radius: 2px;
+    text-align: center;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.rollbar h6 i {
+    position: absolute;
+    right: -3px;
+    top: 50%;
+    margin-top: -4px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-left: 4px solid #666;
+    border-top: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid rgba(0, 0, 0, 0);
+}
