@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - Sample Post</title>
+    <title>Sample Post</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -66,9 +66,6 @@
                     </li>
                     <li>
                         <a href="<?php echo U('About/index');?>">About</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo U('Contact/index');?>">Contact</a>
                     </li>
                     <?php if($isadmin == true): ?><li>
                             <a href="<?php echo U('Post/index');?>">Post</a>
@@ -151,23 +148,7 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
                         <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
+                            <a href="https://github.com/skiwer" target="_blank">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -175,7 +156,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                    <p class="copyright text-muted">Copyright &copy; skiwer.me 2017</p>
                 </div>
             </div>
         </div>
@@ -201,8 +182,8 @@
             var tag = $("#tag").val();
             var outline = $("#outline").val();
             var content = $("#textInput").val();
-            console.log(title, tag, outline, content);
-            console.log("dsadasd");
+            // console.log(title, tag, outline, content);
+            // console.log("dsadasd");
             if (title == "") {
                 alert("请输入标题！");
                 return;
@@ -216,21 +197,24 @@
                 alert("请输入标题！");
                 return;
             } else {
-                var formData = $("form").serialize();
+
                 var markdownData = $("#preview").html();
-                var data = formData + "&markdownContent=" + markdownData;
-                console.log(data);
+                var tmp = $("<input type='text' name='markdownContent'/>");
+                tmp.attr('value', markdownData);
+                $("form").append(tmp);
+                var formData = $("form").serialize();
+                console.log(formData);
                 $.ajax({
                     type: "POST",
                     url: '<?php echo U("Post/post");?>',
-                    data: data
+                    data: formData
                 }).done(function(msg) {
-                    if (msg) {
-                        alert("发布成功！");
-                        window.location.href = '<?php echo U("Index/index");?>';
-                    } else {
-                        alert("发布失败！");
-                    }
+                    // if (msg) {
+                    //     alert("发布成功！");
+                    //     window.location.href = '<?php echo U("Index/index");?>';
+                    // } else {
+                    //     alert("发布失败！");
+                    // }
                 });
             }
         });

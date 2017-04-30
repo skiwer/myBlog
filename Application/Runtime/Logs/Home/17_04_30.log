@@ -3456,3 +3456,1618 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001368s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001475s ]
 
+[ 2017-04-30T18:15:49+08:00 ] ::1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+NOTIC: [8] Undefined index: code C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: nickName C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: figureUrl C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: openId C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: isAdmin C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001688s ]
+
+[ 2017-04-30T18:16:01+08:00 ] ::1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+NOTIC: [8] Undefined index: code C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: nickName C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: figureUrl C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: openId C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: isAdmin C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2017-04-30T18:26:45+08:00 ] ::1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+NOTIC: [8] Undefined index: code C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: nickName C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: figureUrl C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: openId C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: isAdmin C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003264s ]
+
+[ 2017-04-30T19:40:56+08:00 ] ::1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002904s ]
+ERR: 无法加载控制器:Home
+
+[ 2017-04-30T19:41:04+08:00 ] ::1 /About/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [8] Undefined index: isadmin C:\Users\WW\Desktop\myBlog\Application\Home\Controller\AboutController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: nickName C:\Users\WW\Desktop\myBlog\Application\Home\Controller\AboutController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: figureUrl C:\Users\WW\Desktop\myBlog\Application\Home\Controller\AboutController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: isAdmin C:\Users\WW\Desktop\myBlog\Application\Home\Controller\AboutController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2017-04-30T19:41:05+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+NOTIC: [8] Undefined index: code C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: nickName C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: figureUrl C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: openId C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: isAdmin C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001423s ]
+
+[ 2017-04-30T19:41:07+08:00 ] ::1 /About/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+NOTIC: [8] Undefined index: isadmin C:\Users\WW\Desktop\myBlog\Application\Home\Controller\AboutController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: nickName C:\Users\WW\Desktop\myBlog\Application\Home\Controller\AboutController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: figureUrl C:\Users\WW\Desktop\myBlog\Application\Home\Controller\AboutController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: isAdmin C:\Users\WW\Desktop\myBlog\Application\Home\Controller\AboutController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2017-04-30T19:41:11+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+NOTIC: [8] Undefined index: code C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: nickName C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: figureUrl C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: openId C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: isAdmin C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [8] Undefined index: liked C:\Users\WW\Desktop\myBlog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2017-04-30T19:41:13+08:00 ] ::1 /ShowArticle/show/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+NOTIC: [2048] Declaration of Home\Controller\ShowArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 179 行.
+NOTIC: [8] Undefined index: isadmin C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: isAdmin C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: nickName C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 28 行.
+NOTIC: [8] Undefined variable: figureUrl C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2017-04-30T19:41:14+08:00 ] ::1 /ShowArticle/addpageview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+NOTIC: [2048] Declaration of Home\Controller\ShowArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 179 行.
+
+[ 2017-04-30T21:28:44+08:00 ] ::1 /ShowArticle/addpageview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002086s ]
+NOTIC: [2048] Declaration of Home\Controller\ShowArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 179 行.
+
+[ 2017-04-30T21:28:47+08:00 ] ::1 /Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014432s ]
+
+[ 2017-04-30T21:28:50+08:00 ] ::1 /index.php?code=037EE7D84A4C98021CD96A5A42FA8029&state=c3bb593fbb55012151810fb6379ac460
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 9 行.
+ERR: 1146:Table 'myblog.admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `admin`
+ERR: 1146:Table 'myblog.admin' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `admin` WHERE ( uid="B74CB11E0ACC8DC1A8720188C31723B7" ) LIMIT 1  
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002069s ]
+
+[ 2017-04-30T21:28:53+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002258s ]
+
+[ 2017-04-30T21:30:03+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2017-04-30T21:30:04+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+NOTIC: [8] Undefined index: code C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 59 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002934s ]
+
+[ 2017-04-30T21:30:12+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T21:30:22+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+NOTIC: [8] Undefined index: code C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 59 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2017-04-30T21:30:23+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T21:30:27+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002640s ]
+
+[ 2017-04-30T21:30:28+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T21:30:51+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2017-04-30T21:30:57+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+NOTIC: [8] Undefined index: code C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 59 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000591s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2017-04-30T21:30:58+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T21:31:55+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.063294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.063418s ]
+
+[ 2017-04-30T21:31:56+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T21:32:05+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2017-04-30T21:32:10+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+NOTIC: [8] Undefined index: code C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 59 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2017-04-30T21:32:11+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T21:32:59+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002680s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+NOTIC: [8] Undefined index: code C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 59 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2017-04-30T21:33:00+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T21:33:01+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004945s ]
+
+[ 2017-04-30T21:33:01+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T21:33:02+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001382s ]
+
+[ 2017-04-30T21:33:02+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T21:33:22+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2017-04-30T21:37:27+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2017-04-30T21:37:30+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T21:38:41+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2017-04-30T21:49:47+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003366s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026918s ]
+
+[ 2017-04-30T21:49:47+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T21:50:02+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `article` (`title`,`tag`,`outline`,`content`) VALUES ('打算打算大撒大所','打算打算大所','打算打算大所','<p>%u5728%u642D%u8FD9%u4E2A%u535A%u5BA2%u65F6%u9047%u5230%u4E0D%u5C11%u95EE%u9898%uFF0C%u8FD8%u597D%u4E00%u4E00%u89E3%u51B3%u4E86%u3002%u5728%u8FD9%u91CC%u8BF4%u4E00%u4E0B%u90E8%u7F72%u7684%u65F6%u5019%u9047%u5230%u7684%u95EE%u9898%u548C%u5BF9%u5E94%u7684%u89E3%u51B3%u529E%u6CD5%u3002</p>
+<h2 id=\"\">%u95EE%u9898%u63CF%u8FF0</h2>
+<p>%u672C%u5730 <strong>localhost/index.php/%u6A21%u5757%u540D/%u63A7%u5236%u5668%u540D/%u65B9%u6CD5%u540D</strong> %u8BBF%u95EE%u6CA1%u6709%u95EE%u9898%uFF0C%u53EF%u662F%u628A%u4EE3%u7801%u901A%u8FC7git%u5BFC%u5165%u5230%u670D%u52A1%u5668%u540E%uFF0C%u53EA%u80FD%u901A%u8FC7 <strong>ip/index.php</strong> %u8BBF%u95EE%u4E3B%u9875%uFF0C%u5176%u4ED6%u9875%u9762%u90FD%u663E%u793A<strong>access denied</strong>%uFF0C%u63A7%u5236%u53F0%u62A5%u9519<strong>403 forbidden</strong></p>
+<h2 id=\"-1\">%u66F4%u6539%u76EE%u5F55%u6743%u9650</h2>
+<p>%u5728%u7F51%u4E0A%u627E%u5230%u6709%u4E9B%u7B54%u6848%u8BF4%u662F%u7F51%u7AD9%u76EE%u5F55%u6743%u9650%u95EE%u9898%uFF0C%u4E8E%u662F%u901A%u8FC7%u547D%u4EE4 <strong>chown -R www.www /data/wwwroot/%u7F51%u7AD9%u76EE%u5F55</strong> %uFF0C%u5C06wwwroot%u76EE%u5F55%u53CA%u5176%u5B50%u76EE%u5F55%u3001%u6587%u4EF6%u7684%u6240%u6709%u8005%u66F4%u6539%u4E3AWWW%uFF0C%u66F4%u6539%u4E4B%u540E%u518D%u8BBF%u95EE%uFF0C%u8FD8%u662F%u4E00%u6837%u7684%u95EE%u9898</p>
+<h2 id=\"tp\">%u67E5%u770BTP%u5B98%u65B9%u6587%u6863</h2>
+<p>%u7EE7%u7EED%u641C%u7D22 %u67E5%u770B%u6587%u6863%uFF0C%u53D1%u73B0TP%u624B%u518C%u4E2D%u5199%u9053%uFF1A</p>
+<blockquote>
+  <p>%u5982%u679C%u53D1%u751F%u5728%u672C%u5730%u6D4B%u8BD5%u6B63%u5E38%uFF0C%u4F46%u662F%u4E00%u65E6%u90E8%u7F72%u5230%u670D%u52A1%u5668%u73AF%u5883%u540E%u4F1A%u53D1%u751F%u53EA%u80FD%u8BBF%u95EE%u9996%u9875%u7684%u60C5%u51B5%uFF0C%u5F88%u6709%u53EF%u80FD%u662F%u4F60%u7684%u670D%u52A1%u5668%u6216%u8005%u7A7A%u95F4%u4E0D%u652F%u6301PATH_INFO%u6240%u81F4</p>
+</blockquote>
+<p>%u4EE5%u53CA</p>
+<blockquote>
+  <p>%u5728Nginx%u4F4E%u7248%u672C%u4E2D%uFF0C%u662F%u4E0D%u652F%u6301PATHINFO%u7684%uFF0C%u4F46%u662F%u53EF%u4EE5%u901A%u8FC7%u5728Nginx.conf%u4E2D%u914D%u7F6E%u8F6C%u53D1%u89C4%u5219%u5B9E%u73B0%uFF1A</p>
+</blockquote>
+<pre><code>location / { // %u2026..%u7701%u7565%u90E8%u5206%u4EE3%u7801   
+    if (!-e $request_filename) 
+    {   rewrite  ^(.*)$  /index.php?s=$1  last;   
+        break;    
+
+    } 
+}
+</code></pre>
+<blockquote>
+  <p>%u5176%u5B9E%u5185%u90E8%u662F%u8F6C%u53D1%u5230%u4E86ThinkPHP%u63D0%u4F9B%u7684%u517C%u5BB9%u6A21%u5F0F%u7684URL%uFF0C%u5229%u7528%u8FD9%u79CD%u65B9%u5F0F%uFF0C%u53EF%u4EE5%u89E3%u51B3%u5176%u4ED6%u4E0D%u652F%u6301PATHINFO%u7684WEB%u670D%u52A1%u5668%u73AF%u5883%u3002</p>
+  <h2 id=\"nginx\">%u66F4%u6539nginx%u914D%u7F6E%u6587%u4EF6</h2>
+  <p>nginx.conf%u6587%u4EF6%u4E00%u822C%u5728/usr/local/nginx/conf%u76EE%u5F55%u4E0B%uFF0C%u5728server{}%u4E2D%u52A0%u5165%u4E0A%u8FF0%u4EE3%u7801%uFF1A</p>
+</blockquote>
+<pre><code>######################## default ############################
+  server {
+    listen 80;
+    server_name _;
+    access_log /data/wwwlogs/access_nginx.log combined;
+    root /data/wwwroot/***;
+    index index.html index.htm index.php;
+    ##%u52A0%u5165%u4E0B%u9762%u7684%u4EE3%u7801
+    location / { 
+        if (!-e $request_filename) 
+        {   rewrite  ^(.*)$  /index.php?s=$1  last;   
+            break;    
+        } 
+    }
+    ##%u7701%u7565%u90E8%u5206%u4EE3%u7801
+    ...
+  }
+</code></pre>
+<p>nginx.conf%u6587%u4EF6%u6700%u540E%u5F15%u5165%u4E86vhost%u6587%u4EF6
+&gt;</p>
+<pre><code>########################## vhost #############################
+  include vhost/*.conf;
+</code></pre>
+<p>%u5728nginx%u540C%u7EA7%u76EE%u5F55%u4E0B%u7684vhost%u6587%u4EF6%u5939%u4E2D%u627E%u5230%u6587%u4EF6 <strong>vhostdomain.conf</strong>%uFF0C %u5176%u4E2Dvhostdomain%u4E3A%u4F60%u7684%u7F51%u7AD9%u5BF9%u5E94%u865A%u62DF%u4E3B%u673A%u540D%uFF0C%u627E%u5230 <strong>location ~ .php</strong> %u4F4D%u7F6E%u63D2%u5165%u5982%u4E0B%u4EE3%u7801%uFF1A</p>
+<pre><code> location ~ \\.php {
+    #fastcgi_pass remote_php_ip:9000;
+
+    fastcgi_split_path_info ^(. \\.php)(/. )$;
+    #fastcgi_param PATH_INFO $fastcgi_path_info;
+    #fastcgi_pass unix:/dev/shm/php-cgi.sock;
+    #fastcgi_index index.php;
+    include fastcgi_params;
+    #fastcgi_param   PATH_INFO   $fastcgi_path_info;
+    #fastcgi_param   SCRIPT_FILENAME $document_root$fastcgi_#script_name;
+
+    ##%u4EE5%u4E0B%u4E3A%u63D2%u5165%u7684%u4EE3%u7801
+    set $path_info \"\";
+    set $real_script_name $fastcgi_script_name;
+    if ($fastcgi_script_name ~ \"^(. ?\\.php)(/. )$\") {
+        set $real_script_name $1;
+        set $path_info $2;
+    }
+    fastcgi_param SCRIPT_FILENAME $document_root$real_script_name;
+    fastcgi_param SCRIPT_NAME $real_script_name;
+    fastcgi_param PATH_INFO $path_info;
+    ##%u7ED3%u675F
+}
+</code></pre>
+<h2 id=\"-2\">%u66F4%u6539%u9879%u76EE%u914D%u7F6E</h2>
+<p>%u6700%u540E%uFF0C%u7531%u4E8ETP%u9ED8%u8BA4%u7684URL<em>MODEL%u662Fpath</em>info%u6A21%u5F0F%uFF0C%u9700%u8981%u5728%u914D%u7F6E%u6587%u4EF6%u4E2D%u4FEE%u6539%u6210%u91CD%u5199%u6A21%u5F0F%uFF0C%u5728%u914D%u7F6E%u6587%u4EF6%u4E2D%u52A0%u5165%u4E00%u4E2A%u914D%u7F6E%uFF1A</p>
+<pre><code>\'URL_MODEL\'=&gt;2
+</code></pre>
+<p>%u8FD9%u91CC%u6D89%u53CA%u5230TP%u76844%u79CDURL_MODEL%uFF0C%u8BE6%u60C5%u67E5%u770B<a href=\"http://note.youdao.com/\">http://blog.csdn.net/u012382791/article/details/50845351</a></p>
+<h2 id=\"-3\">%u89E3%u51B3</h2>
+<p>%u7F51%u4E0A%u7684%u89E3%u51B3%u65B9%u6848%u4E0D%u5927%u4E00%u6837%uFF0C%u8981%u9488%u5BF9%u81EA%u5DF1%u5B9E%u9645%u7684%u914D%u7F6E%u53BB%u9009%u62E9%u65B9%u6848%uFF0C%u82B1%u4E86%u5FEB%u4E00%u4E2A%u5C0F%u65F6%u624D%u641E%u5B9A%u8FD9%u4E2A%u95EE%u9898%uFF0C%u6587%u6863%u8FD8%u662F%u5F88%u91CD%u8981%u7684%uFF0C%u5B8C%u3002</p>')
+
+[ 2017-04-30T22:05:39+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003822s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002055s ]
+
+[ 2017-04-30T22:05:39+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T22:06:12+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `article` (`title`,`tag`,`outline`,`content`) VALUES ('打算打算大','大大神大神','打算打算大撒大所大所大大所','<p>%u5728%u642D%u8FD9%u4E2A%u535A%u5BA2%u65F6%u9047%u5230%u4E0D%u5C11%u95EE%u9898%uFF0C%u8FD8%u597D%u4E00%u4E00%u89E3%u51B3%u4E86%u3002%u5728%u8FD9%u91CC%u8BF4%u4E00%u4E0B%u90E8%u7F72%u7684%u65F6%u5019%u9047%u5230%u7684%u95EE%u9898%u548C%u5BF9%u5E94%u7684%u89E3%u51B3%u529E%u6CD5%u3002</p>
+<h2 id=\"\">%u95EE%u9898%u63CF%u8FF0</h2>
+<p>%u672C%u5730 <strong>localhost/index.php/%u6A21%u5757%u540D/%u63A7%u5236%u5668%u540D/%u65B9%u6CD5%u540D</strong> %u8BBF%u95EE%u6CA1%u6709%u95EE%u9898%uFF0C%u53EF%u662F%u628A%u4EE3%u7801%u901A%u8FC7git%u5BFC%u5165%u5230%u670D%u52A1%u5668%u540E%uFF0C%u53EA%u80FD%u901A%u8FC7 <strong>ip/index.php</strong> %u8BBF%u95EE%u4E3B%u9875%uFF0C%u5176%u4ED6%u9875%u9762%u90FD%u663E%u793A<strong>access denied</strong>%uFF0C%u63A7%u5236%u53F0%u62A5%u9519<strong>403 forbidden</strong></p>
+<h2 id=\"-1\">%u66F4%u6539%u76EE%u5F55%u6743%u9650</h2>
+<p>%u5728%u7F51%u4E0A%u627E%u5230%u6709%u4E9B%u7B54%u6848%u8BF4%u662F%u7F51%u7AD9%u76EE%u5F55%u6743%u9650%u95EE%u9898%uFF0C%u4E8E%u662F%u901A%u8FC7%u547D%u4EE4 <strong>chown -R www.www /data/wwwroot/%u7F51%u7AD9%u76EE%u5F55</strong> %uFF0C%u5C06wwwroot%u76EE%u5F55%u53CA%u5176%u5B50%u76EE%u5F55%u3001%u6587%u4EF6%u7684%u6240%u6709%u8005%u66F4%u6539%u4E3AWWW%uFF0C%u66F4%u6539%u4E4B%u540E%u518D%u8BBF%u95EE%uFF0C%u8FD8%u662F%u4E00%u6837%u7684%u95EE%u9898</p>
+<h2 id=\"tp\">%u67E5%u770BTP%u5B98%u65B9%u6587%u6863</h2>
+<p>%u7EE7%u7EED%u641C%u7D22 %u67E5%u770B%u6587%u6863%uFF0C%u53D1%u73B0TP%u624B%u518C%u4E2D%u5199%u9053%uFF1A</p>
+<blockquote>
+  <p>%u5982%u679C%u53D1%u751F%u5728%u672C%u5730%u6D4B%u8BD5%u6B63%u5E38%uFF0C%u4F46%u662F%u4E00%u65E6%u90E8%u7F72%u5230%u670D%u52A1%u5668%u73AF%u5883%u540E%u4F1A%u53D1%u751F%u53EA%u80FD%u8BBF%u95EE%u9996%u9875%u7684%u60C5%u51B5%uFF0C%u5F88%u6709%u53EF%u80FD%u662F%u4F60%u7684%u670D%u52A1%u5668%u6216%u8005%u7A7A%u95F4%u4E0D%u652F%u6301PATH_INFO%u6240%u81F4</p>
+</blockquote>
+<p>%u4EE5%u53CA</p>
+<blockquote>
+  <p>%u5728Nginx%u4F4E%u7248%u672C%u4E2D%uFF0C%u662F%u4E0D%u652F%u6301PATHINFO%u7684%uFF0C%u4F46%u662F%u53EF%u4EE5%u901A%u8FC7%u5728Nginx.conf%u4E2D%u914D%u7F6E%u8F6C%u53D1%u89C4%u5219%u5B9E%u73B0%uFF1A</p>
+</blockquote>
+<pre><code>location / { // %u2026..%u7701%u7565%u90E8%u5206%u4EE3%u7801   
+    if (!-e $request_filename) 
+    {   rewrite  ^(.*)$  /index.php?s=$1  last;   
+        break;    
+
+    } 
+}
+</code></pre>
+<blockquote>
+  <p>%u5176%u5B9E%u5185%u90E8%u662F%u8F6C%u53D1%u5230%u4E86ThinkPHP%u63D0%u4F9B%u7684%u517C%u5BB9%u6A21%u5F0F%u7684URL%uFF0C%u5229%u7528%u8FD9%u79CD%u65B9%u5F0F%uFF0C%u53EF%u4EE5%u89E3%u51B3%u5176%u4ED6%u4E0D%u652F%u6301PATHINFO%u7684WEB%u670D%u52A1%u5668%u73AF%u5883%u3002</p>
+  <h2 id=\"nginx\">%u66F4%u6539nginx%u914D%u7F6E%u6587%u4EF6</h2>
+  <p>nginx.conf%u6587%u4EF6%u4E00%u822C%u5728/usr/local/nginx/conf%u76EE%u5F55%u4E0B%uFF0C%u5728server{}%u4E2D%u52A0%u5165%u4E0A%u8FF0%u4EE3%u7801%uFF1A</p>
+</blockquote>
+<pre><code>######################## default ############################
+  server {
+    listen 80;
+    server_name _;
+    access_log /data/wwwlogs/access_nginx.log combined;
+    root /data/wwwroot/***;
+    index index.html index.htm index.php;
+    ##%u52A0%u5165%u4E0B%u9762%u7684%u4EE3%u7801
+    location / { 
+        if (!-e $request_filename) 
+        {   rewrite  ^(.*)$  /index.php?s=$1  last;   
+            break;    
+        } 
+    }
+    ##%u7701%u7565%u90E8%u5206%u4EE3%u7801
+    ...
+  }
+</code></pre>
+<p>nginx.conf%u6587%u4EF6%u6700%u540E%u5F15%u5165%u4E86vhost%u6587%u4EF6
+&gt;</p>
+<pre><code>########################## vhost #############################
+  include vhost/*.conf;
+</code></pre>
+<p>%u5728nginx%u540C%u7EA7%u76EE%u5F55%u4E0B%u7684vhost%u6587%u4EF6%u5939%u4E2D%u627E%u5230%u6587%u4EF6 <strong>vhostdomain.conf</strong>%uFF0C %u5176%u4E2Dvhostdomain%u4E3A%u4F60%u7684%u7F51%u7AD9%u5BF9%u5E94%u865A%u62DF%u4E3B%u673A%u540D%uFF0C%u627E%u5230 <strong>location ~ .php</strong> %u4F4D%u7F6E%u63D2%u5165%u5982%u4E0B%u4EE3%u7801%uFF1A</p>
+<pre><code> location ~ \\.php {
+    #fastcgi_pass remote_php_ip:9000;
+
+    fastcgi_split_path_info ^(. \\.php)(/. )$;
+    #fastcgi_param PATH_INFO $fastcgi_path_info;
+    #fastcgi_pass unix:/dev/shm/php-cgi.sock;
+    #fastcgi_index index.php;
+    include fastcgi_params;
+    #fastcgi_param   PATH_INFO   $fastcgi_path_info;
+    #fastcgi_param   SCRIPT_FILENAME $document_root$fastcgi_#script_name;
+
+    ##%u4EE5%u4E0B%u4E3A%u63D2%u5165%u7684%u4EE3%u7801
+    set $path_info \"\";
+    set $real_script_name $fastcgi_script_name;
+    if ($fastcgi_script_name ~ \"^(. ?\\.php)(/. )$\") {
+        set $real_script_name $1;
+        set $path_info $2;
+    }
+    fastcgi_param SCRIPT_FILENAME $document_root$real_script_name;
+    fastcgi_param SCRIPT_NAME $real_script_name;
+    fastcgi_param PATH_INFO $path_info;
+    ##%u7ED3%u675F
+}
+</code></pre>
+<h2 id=\"-2\">%u66F4%u6539%u9879%u76EE%u914D%u7F6E</h2>
+<p>%u6700%u540E%uFF0C%u7531%u4E8ETP%u9ED8%u8BA4%u7684URL<em>MODEL%u662Fpath</em>info%u6A21%u5F0F%uFF0C%u9700%u8981%u5728%u914D%u7F6E%u6587%u4EF6%u4E2D%u4FEE%u6539%u6210%u91CD%u5199%u6A21%u5F0F%uFF0C%u5728%u914D%u7F6E%u6587%u4EF6%u4E2D%u52A0%u5165%u4E00%u4E2A%u914D%u7F6E%uFF1A</p>
+<pre><code>\'URL_MODEL\'=&gt;2
+</code></pre>
+<p>%u8FD9%u91CC%u6D89%u53CA%u5230TP%u76844%u79CDURL_MODEL%uFF0C%u8BE6%u60C5%u67E5%u770B<a href=\"http://note.youdao.com/\">http://blog.csdn.net/u012382791/article/details/50845351</a></p>
+<h2 id=\"-3\">%u89E3%u51B3</h2>
+<p>%u7F51%u4E0A%u7684%u89E3%u51B3%u65B9%u6848%u4E0D%u5927%u4E00%u6837%uFF0C%u8981%u9488%u5BF9%u81EA%u5DF1%u5B9E%u9645%u7684%u914D%u7F6E%u53BB%u9009%u62E9%u65B9%u6848%uFF0C%u82B1%u4E86%u5FEB%u4E00%u4E2A%u5C0F%u65F6%u624D%u641E%u5B9A%u8FD9%u4E2A%u95EE%u9898%uFF0C%u6587%u6863%u8FD8%u662F%u5F88%u91CD%u8981%u7684%uFF0C%u5B8C%u3002</p>')
+
+[ 2017-04-30T22:09:58+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003880s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003691s ]
+
+[ 2017-04-30T22:09:58+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T22:10:15+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `article` (`title`,`tag`,`outline`,`content`) VALUES ('恶趣味群翁群无','恶趣味群翁','恶趣味群翁','<p>%u5728%u642D%u8FD9%u4E2A%u535A%u5BA2%u65F6%u9047%u5230%u4E0D%u5C11%u95EE%u9898%uFF0C%u8FD8%u597D%u4E00%u4E00%u89E3%u51B3%u4E86%u3002%u5728%u8FD9%u91CC%u8BF4%u4E00%u4E0B%u90E8%u7F72%u7684%u65F6%u5019%u9047%u5230%u7684%u95EE%u9898%u548C%u5BF9%u5E94%u7684%u89E3%u51B3%u529E%u6CD5%u3002</p>
+<h2 id=\"\">%u95EE%u9898%u63CF%u8FF0</h2>
+<p>%u672C%u5730 <strong>localhost/index.php/%u6A21%u5757%u540D/%u63A7%u5236%u5668%u540D/%u65B9%u6CD5%u540D</strong> %u8BBF%u95EE%u6CA1%u6709%u95EE%u9898%uFF0C%u53EF%u662F%u628A%u4EE3%u7801%u901A%u8FC7git%u5BFC%u5165%u5230%u670D%u52A1%u5668%u540E%uFF0C%u53EA%u80FD%u901A%u8FC7 <strong>ip/index.php</strong> %u8BBF%u95EE%u4E3B%u9875%uFF0C%u5176%u4ED6%u9875%u9762%u90FD%u663E%u793A<strong>access denied</strong>%uFF0C%u63A7%u5236%u53F0%u62A5%u9519<strong>403 forbidden</strong></p>
+<h2 id=\"-1\">%u66F4%u6539%u76EE%u5F55%u6743%u9650</h2>
+<p>%u5728%u7F51%u4E0A%u627E%u5230%u6709%u4E9B%u7B54%u6848%u8BF4%u662F%u7F51%u7AD9%u76EE%u5F55%u6743%u9650%u95EE%u9898%uFF0C%u4E8E%u662F%u901A%u8FC7%u547D%u4EE4 <strong>chown -R www.www /data/wwwroot/%u7F51%u7AD9%u76EE%u5F55</strong> %uFF0C%u5C06wwwroot%u76EE%u5F55%u53CA%u5176%u5B50%u76EE%u5F55%u3001%u6587%u4EF6%u7684%u6240%u6709%u8005%u66F4%u6539%u4E3AWWW%uFF0C%u66F4%u6539%u4E4B%u540E%u518D%u8BBF%u95EE%uFF0C%u8FD8%u662F%u4E00%u6837%u7684%u95EE%u9898</p>
+<h2 id=\"tp\">%u67E5%u770BTP%u5B98%u65B9%u6587%u6863</h2>
+<p>%u7EE7%u7EED%u641C%u7D22 %u67E5%u770B%u6587%u6863%uFF0C%u53D1%u73B0TP%u624B%u518C%u4E2D%u5199%u9053%uFF1A</p>
+<blockquote>
+  <p>%u5982%u679C%u53D1%u751F%u5728%u672C%u5730%u6D4B%u8BD5%u6B63%u5E38%uFF0C%u4F46%u662F%u4E00%u65E6%u90E8%u7F72%u5230%u670D%u52A1%u5668%u73AF%u5883%u540E%u4F1A%u53D1%u751F%u53EA%u80FD%u8BBF%u95EE%u9996%u9875%u7684%u60C5%u51B5%uFF0C%u5F88%u6709%u53EF%u80FD%u662F%u4F60%u7684%u670D%u52A1%u5668%u6216%u8005%u7A7A%u95F4%u4E0D%u652F%u6301PATH_INFO%u6240%u81F4</p>
+</blockquote>
+<p>%u4EE5%u53CA</p>
+<blockquote>
+  <p>%u5728Nginx%u4F4E%u7248%u672C%u4E2D%uFF0C%u662F%u4E0D%u652F%u6301PATHINFO%u7684%uFF0C%u4F46%u662F%u53EF%u4EE5%u901A%u8FC7%u5728Nginx.conf%u4E2D%u914D%u7F6E%u8F6C%u53D1%u89C4%u5219%u5B9E%u73B0%uFF1A</p>
+</blockquote>
+<pre><code>location / { // %u2026..%u7701%u7565%u90E8%u5206%u4EE3%u7801   
+    if (!-e $request_filename) 
+    {   rewrite  ^(.*)$  /index.php?s=$1  last;   
+        break;    
+
+    } 
+}
+</code></pre>
+<blockquote>
+  <p>%u5176%u5B9E%u5185%u90E8%u662F%u8F6C%u53D1%u5230%u4E86ThinkPHP%u63D0%u4F9B%u7684%u517C%u5BB9%u6A21%u5F0F%u7684URL%uFF0C%u5229%u7528%u8FD9%u79CD%u65B9%u5F0F%uFF0C%u53EF%u4EE5%u89E3%u51B3%u5176%u4ED6%u4E0D%u652F%u6301PATHINFO%u7684WEB%u670D%u52A1%u5668%u73AF%u5883%u3002</p>
+  <h2 id=\"nginx\">%u66F4%u6539nginx%u914D%u7F6E%u6587%u4EF6</h2>
+  <p>nginx.conf%u6587%u4EF6%u4E00%u822C%u5728/usr/local/nginx/conf%u76EE%u5F55%u4E0B%uFF0C%u5728server{}%u4E2D%u52A0%u5165%u4E0A%u8FF0%u4EE3%u7801%uFF1A</p>
+</blockquote>
+<pre><code>######################## default ############################
+  server {
+    listen 80;
+    server_name _;
+    access_log /data/wwwlogs/access_nginx.log combined;
+    root /data/wwwroot/***;
+    index index.html index.htm index.php;
+    ##%u52A0%u5165%u4E0B%u9762%u7684%u4EE3%u7801
+    location / { 
+        if (!-e $request_filename) 
+        {   rewrite  ^(.*)$  /index.php?s=$1  last;   
+            break;    
+        } 
+    }
+    ##%u7701%u7565%u90E8%u5206%u4EE3%u7801
+    ...
+  }
+</code></pre>
+<p>nginx.conf%u6587%u4EF6%u6700%u540E%u5F15%u5165%u4E86vhost%u6587%u4EF6
+&gt;</p>
+<pre><code>########################## vhost #############################
+  include vhost/*.conf;
+</code></pre>
+<p>%u5728nginx%u540C%u7EA7%u76EE%u5F55%u4E0B%u7684vhost%u6587%u4EF6%u5939%u4E2D%u627E%u5230%u6587%u4EF6 <strong>vhostdomain.conf</strong>%uFF0C %u5176%u4E2Dvhostdomain%u4E3A%u4F60%u7684%u7F51%u7AD9%u5BF9%u5E94%u865A%u62DF%u4E3B%u673A%u540D%uFF0C%u627E%u5230 <strong>location ~ .php</strong> %u4F4D%u7F6E%u63D2%u5165%u5982%u4E0B%u4EE3%u7801%uFF1A</p>
+<pre><code> location ~ \\.php {
+    #fastcgi_pass remote_php_ip:9000;
+
+    fastcgi_split_path_info ^(. \\.php)(/. )$;
+    #fastcgi_param PATH_INFO $fastcgi_path_info;
+    #fastcgi_pass unix:/dev/shm/php-cgi.sock;
+    #fastcgi_index index.php;
+    include fastcgi_params;
+    #fastcgi_param   PATH_INFO   $fastcgi_path_info;
+    #fastcgi_param   SCRIPT_FILENAME $document_root$fastcgi_#script_name;
+
+    ##%u4EE5%u4E0B%u4E3A%u63D2%u5165%u7684%u4EE3%u7801
+    set $path_info \"\";
+    set $real_script_name $fastcgi_script_name;
+    if ($fastcgi_script_name ~ \"^(. ?\\.php)(/. )$\") {
+        set $real_script_name $1;
+        set $path_info $2;
+    }
+    fastcgi_param SCRIPT_FILENAME $document_root$real_script_name;
+    fastcgi_param SCRIPT_NAME $real_script_name;
+    fastcgi_param PATH_INFO $path_info;
+    ##%u7ED3%u675F
+}
+</code></pre>
+<h2 id=\"-2\">%u66F4%u6539%u9879%u76EE%u914D%u7F6E</h2>
+<p>%u6700%u540E%uFF0C%u7531%u4E8ETP%u9ED8%u8BA4%u7684URL<em>MODEL%u662Fpath</em>info%u6A21%u5F0F%uFF0C%u9700%u8981%u5728%u914D%u7F6E%u6587%u4EF6%u4E2D%u4FEE%u6539%u6210%u91CD%u5199%u6A21%u5F0F%uFF0C%u5728%u914D%u7F6E%u6587%u4EF6%u4E2D%u52A0%u5165%u4E00%u4E2A%u914D%u7F6E%uFF1A</p>
+<pre><code>\'URL_MODEL\'=&gt;2
+</code></pre>
+<p>%u8FD9%u91CC%u6D89%u53CA%u5230TP%u76844%u79CDURL_MODEL%uFF0C%u8BE6%u60C5%u67E5%u770B<a href=\"http://note.youdao.com/\">http://blog.csdn.net/u012382791/article/details/50845351</a></p>
+<h2 id=\"-3\">%u89E3%u51B3</h2>
+<p>%u7F51%u4E0A%u7684%u89E3%u51B3%u65B9%u6848%u4E0D%u5927%u4E00%u6837%uFF0C%u8981%u9488%u5BF9%u81EA%u5DF1%u5B9E%u9645%u7684%u914D%u7F6E%u53BB%u9009%u62E9%u65B9%u6848%uFF0C%u82B1%u4E86%u5FEB%u4E00%u4E2A%u5C0F%u65F6%u624D%u641E%u5B9A%u8FD9%u4E2A%u95EE%u9898%uFF0C%u6587%u6863%u8FD8%u662F%u5F88%u91CD%u8981%u7684%uFF0C%u5B8C%u3002</p>')
+
+[ 2017-04-30T22:19:42+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002167s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004369s ]
+
+[ 2017-04-30T22:19:42+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T22:20:05+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+NOTIC: [8] Undefined index: markdownContent C:\Users\WW\Desktop\myBlog\Application\Home\Controller\PostController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2017-04-30T22:21:43+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000443s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000788s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005669s ]
+
+[ 2017-04-30T22:21:43+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T22:21:58+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `article` (`title`,`tag`,`outline`,`content`) VALUES ('打算打算大','打算打算大所','打算打算大所','<p>在搭这个博客时遇到不少问题，还好一一解决了。在这里说一下部署的时候遇到的问题和对应的解决办法。</p><h2 id=\"\">问题描述</h2><p>本地 <strong>localhost/index.php/模块名/控制器名/方法名</strong> 访问没有问题，可是把代码通过git导入到服务器后，只能通过 <strong>ip/index.php</strong> 访问主页，其他页面都显示<strong>access denied</strong>，控制台报错<strong>403 forbidden</strong></p><h2 id=\"-1\">更改目录权限</h2><p>在网上找到有些答案说是网站目录权限问题，于是通过命令 <strong>chown -R www.www /data/wwwroot/网站目录</strong> ，将wwwroot目录及其子目录、文件的所有者更改为WWW，更改之后再访问，还是一样的问题</p><h2 id=\"tp\">查看TP官方文档</h2><p>继续搜索 查看文档，发现TP手册中写道：</p><blockquote>  <p>如果发生在本地测试正常，但是一旦部署到服务器环境后会发生只能访问首页的情况，很有可能是你的服务器或者空间不支持PATH_INFO所致</p></blockquote><p>以及</p><blockquote>  <p>在Nginx低版本中，是不支持PATHINFO的，但是可以通过在Nginx.conf中配置转发规则实现：</p></blockquote><pre><code>location / { // …..省略部分代码       if (!-e $request_filename)     {   rewrite  ^(.*)$  /index.php?s=$1  last;           break;        } }</code></pre><blockquote>  <p>其实内部是转发到了ThinkPHP提供的兼容模式的URL，利用这种方式，可以解决其他不支持PATHINFO的WEB服务器环境。</p>  <h2 id=\"nginx\">更改nginx配置文件</h2>  <p>nginx.conf文件一般在/usr/local/nginx/conf目录下，在server{}中加入上述代码：</p></blockquote><pre><code>######################## default ############################  server {    listen 80;    server_name _;    access_log /data/wwwlogs/access_nginx.log combined;    root /data/wwwroot/***;    index index.html index.htm index.php;    ##加入下面的代码    location / {         if (!-e $request_filename)         {   rewrite  ^(.*)$  /index.php?s=$1  last;               break;            }     }    ##省略部分代码    ...  }</code></pre><p>nginx.conf文件最后引入了vhost文件&gt;</p><pre><code>########################## vhost #############################  include vhost/*.conf;</code></pre><p>在nginx同级目录下的vhost文件夹中找到文件 <strong>vhostdomain.conf</strong>， 其中vhostdomain为你的网站对应虚拟主机名，找到 <strong>location ~ .php</strong> 位置插入如下代码：</p><pre><code> location ~ \\.php {    #fastcgi_pass remote_php_ip:9000;    fastcgi_split_path_info ^(. \\.php)(/. )$;    #fastcgi_param PATH_INFO $fastcgi_path_info;    #fastcgi_pass unix:/dev/shm/php-cgi.sock;    #fastcgi_index index.php;    include fastcgi_params;    #fastcgi_param   PATH_INFO   $fastcgi_path_info;    #fastcgi_param   SCRIPT_FILENAME $document_root$fastcgi_#script_name;    ##以下为插入的代码    set $path_info \"\";    set $real_script_name $fastcgi_script_name;    if ($fastcgi_script_name ~ \"^(. ?\\.php)(/. )$\") {        set $real_script_name $1;        set $path_info $2;    }    fastcgi_param SCRIPT_FILENAME $document_root$real_script_name;    fastcgi_param SCRIPT_NAME $real_script_name;    fastcgi_param PATH_INFO $path_info;    ##结束}</code></pre><h2 id=\"-2\">更改项目配置</h2><p>最后，由于TP默认的URL<em>MODEL是path</em>info模式，需要在配置文件中修改成重写模式，在配置文件中加入一个配置：</p><pre><code>\'URL_MODEL\'=&gt;2</code></pre><p>这里涉及到TP的4种URL_MODEL，详情查看<a href=\"http://note.youdao.com/\">http://blog.csdn.net/u012382791/article/details/50845351</a></p><h2 id=\"-3\">解决</h2><p>网上的解决方案不大一样，要针对自己实际的配置去选择方案，花了快一个小时才搞定这个问题，文档还是很重要的，完。</p>')
+
+[ 2017-04-30T22:22:51+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `article` (`title`,`tag`,`outline`,`content`) VALUES ('打算打算大','打算打算大所','打算打算大所','<p>在搭这个博客时遇到不少问题，还好一一解决了。在这里说一下部署的时候遇到的问题和对应的解决办法。</p><h2 id=\"\">问题描述</h2><p>本地 <strong>localhost/index.php/模块名/控制器名/方法名</strong> 访问没有问题，可是把代码通过git导入到服务器后，只能通过 <strong>ip/index.php</strong> 访问主页，其他页面都显示<strong>access denied</strong>，控制台报错<strong>403 forbidden</strong></p><h2 id=\"-1\">更改目录权限</h2><p>在网上找到有些答案说是网站目录权限问题，于是通过命令 <strong>chown -R www.www /data/wwwroot/网站目录</strong> ，将wwwroot目录及其子目录、文件的所有者更改为WWW，更改之后再访问，还是一样的问题</p><h2 id=\"tp\">查看TP官方文档</h2><p>继续搜索+查看文档，发现TP手册中写道：</p><blockquote>  <p>如果发生在本地测试正常，但是一旦部署到服务器环境后会发生只能访问首页的情况，很有可能是你的服务器或者空间不支持PATH_INFO所致</p></blockquote><p>以及</p><blockquote>  <p>在Nginx低版本中，是不支持PATHINFO的，但是可以通过在Nginx.conf中配置转发规则实现：</p></blockquote><pre><code>location / { // …..省略部分代码       if (!-e $request_filename)     {   rewrite  ^(.*)$  /index.php?s=$1  last;           break;        } }</code></pre><blockquote>  <p>其实内部是转发到了ThinkPHP提供的兼容模式的URL，利用这种方式，可以解决其他不支持PATHINFO的WEB服务器环境。</p>  <h2 id=\"nginx\">更改nginx配置文件</h2>  <p>nginx.conf文件一般在/usr/local/nginx/conf目录下，在server{}中加入上述代码：</p></blockquote><pre><code>######################## default ############################  server {    listen 80;    server_name _;    access_log /data/wwwlogs/access_nginx.log combined;    root /data/wwwroot/***;    index index.html index.htm index.php;    ##加入下面的代码    location / {         if (!-e $request_filename)         {   rewrite  ^(.*)$  /index.php?s=$1  last;               break;            }     }    ##省略部分代码    ...  }</code></pre><p>nginx.conf文件最后引入了vhost文件&gt;</p><pre><code>########################## vhost #############################  include vhost/*.conf;</code></pre><p>在nginx同级目录下的vhost文件夹中找到文件 <strong>vhostdomain.conf</strong>， 其中vhostdomain为你的网站对应虚拟主机名，找到 <strong>location ~ .php</strong> 位置插入如下代码：</p><pre><code> location ~ \\.php {    #fastcgi_pass remote_php_ip:9000;    fastcgi_split_path_info ^(.+\\.php)(/.+)$;    #fastcgi_param PATH_INFO $fastcgi_path_info;    #fastcgi_pass unix:/dev/shm/php-cgi.sock;    #fastcgi_index index.php;    include fastcgi_params;    #fastcgi_param   PATH_INFO   $fastcgi_path_info;    #fastcgi_param   SCRIPT_FILENAME $document_root$fastcgi_#script_name;    ##以下为插入的代码    set $path_info \"\";    set $real_script_name $fastcgi_script_name;    if ($fastcgi_script_name ~ \"^(.+?\\.php)(/.+)$\") {        set $real_script_name $1;        set $path_info $2;    }    fastcgi_param SCRIPT_FILENAME $document_root$real_script_name;    fastcgi_param SCRIPT_NAME $real_script_name;    fastcgi_param PATH_INFO $path_info;    ##结束}</code></pre><h2 id=\"-2\">更改项目配置</h2><p>最后，由于TP默认的URL<em>MODEL是path</em>info模式，需要在配置文件中修改成重写模式，在配置文件中加入一个配置：</p><pre><code>\'URL_MODEL\'=&gt;2</code></pre><p>这里涉及到TP的4种URL_MODEL，详情查看<a href=\"http://note.youdao.com/\">http://blog.csdn.net/u012382791/article/details/50845351</a></p><h2 id=\"-3\">解决</h2><p>网上的解决方案不大一样，要针对自己实际的配置去选择方案，花了快一个小时才搞定这个问题，文档还是很重要的，完。</p>')
+
+[ 2017-04-30T22:24:15+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001883s ]
+
+[ 2017-04-30T22:24:16+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T22:24:26+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+ERR: 1406:Data too long for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `article` (`title`,`tag`,`outline`,`content`) VALUES ('的撒打算多','打算打算','打算打算','<p>在搭这个博客时遇到不少问题，还好一一解决了。在这里说一下部署的时候遇到的问题和对应的解决办法。</p><h2 id=\"\">问题描述</h2><p>本地 <strong>localhost/index.php/模块名/控制器名/方法名</strong> 访问没有问题，可是把代码通过git导入到服务器后，只能通过 <strong>ip/index.php</strong> 访问主页，其他页面都显示<strong>access denied</strong>，控制台报错<strong>403 forbidden</strong></p><h2 id=\"-1\">更改目录权限</h2><p>在网上找到有些答案说是网站目录权限问题，于是通过命令 <strong>chown -R www.www /data/wwwroot/网站目录</strong> ，将wwwroot目录及其子目录、文件的所有者更改为WWW，更改之后再访问，还是一样的问题</p><h2 id=\"tp\">查看TP官方文档</h2><p>继续搜索+查看文档，发现TP手册中写道：</p><blockquote>  <p>如果发生在本地测试正常，但是一旦部署到服务器环境后会发生只能访问首页的情况，很有可能是你的服务器或者空间不支持PATH_INFO所致</p></blockquote><p>以及</p><blockquote>  <p>在Nginx低版本中，是不支持PATHINFO的，但是可以通过在Nginx.conf中配置转发规则实现：</p></blockquote><pre><code>location / { // …..省略部分代码       if (!-e $request_filename)     {   rewrite  ^(.*)$  /index.php?s=$1  last;           break;        } }</code></pre><blockquote>  <p>其实内部是转发到了ThinkPHP提供的兼容模式的URL，利用这种方式，可以解决其他不支持PATHINFO的WEB服务器环境。</p>  <h2 id=\"nginx\">更改nginx配置文件</h2>  <p>nginx.conf文件一般在/usr/local/nginx/conf目录下，在server{}中加入上述代码：</p></blockquote><pre><code>######################## default ############################  server {    listen 80;    server_name _;    access_log /data/wwwlogs/access_nginx.log combined;    root /data/wwwroot/***;    index index.html index.htm index.php;    ##加入下面的代码    location / {         if (!-e $request_filename)         {   rewrite  ^(.*)$  /index.php?s=$1  last;               break;            }     }    ##省略部分代码    ...  }</code></pre><p>nginx.conf文件最后引入了vhost文件&gt;</p><pre><code>########################## vhost #############################  include vhost/*.conf;</code></pre><p>在nginx同级目录下的vhost文件夹中找到文件 <strong>vhostdomain.conf</strong>， 其中vhostdomain为你的网站对应虚拟主机名，找到 <strong>location ~ .php</strong> 位置插入如下代码：</p><pre><code> location ~ \\.php {    #fastcgi_pass remote_php_ip:9000;    fastcgi_split_path_info ^(.+\\.php)(/.+)$;    #fastcgi_param PATH_INFO $fastcgi_path_info;    #fastcgi_pass unix:/dev/shm/php-cgi.sock;    #fastcgi_index index.php;    include fastcgi_params;    #fastcgi_param   PATH_INFO   $fastcgi_path_info;    #fastcgi_param   SCRIPT_FILENAME $document_root$fastcgi_#script_name;    ##以下为插入的代码    set $path_info \"\";    set $real_script_name $fastcgi_script_name;    if ($fastcgi_script_name ~ \"^(.+?\\.php)(/.+)$\") {        set $real_script_name $1;        set $path_info $2;    }    fastcgi_param SCRIPT_FILENAME $document_root$real_script_name;    fastcgi_param SCRIPT_NAME $real_script_name;    fastcgi_param PATH_INFO $path_info;    ##结束}</code></pre><h2 id=\"-2\">更改项目配置</h2><p>最后，由于TP默认的URL<em>MODEL是path</em>info模式，需要在配置文件中修改成重写模式，在配置文件中加入一个配置：</p><pre><code>\'URL_MODEL\'=&gt;2</code></pre><p>这里涉及到TP的4种URL_MODEL，详情查看<a href=\"http://note.youdao.com/\">http://blog.csdn.net/u012382791/article/details/50845351</a></p><h2 id=\"-3\">解决</h2><p>网上的解决方案不大一样，要针对自己实际的配置去选择方案，花了快一个小时才搞定这个问题，文档还是很重要的，完。</p>')
+
+[ 2017-04-30T22:25:37+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2017-04-30T22:25:42+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+NOTIC: [8] Undefined index: code C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 59 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2017-04-30T22:25:43+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T22:26:08+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004955s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009503s ]
+
+[ 2017-04-30T22:26:08+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T22:26:22+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001964s ]
+
+[ 2017-04-30T22:27:48+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001435s ]
+
+[ 2017-04-30T22:27:48+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T22:28:02+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2017-04-30T22:30:13+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2017-04-30T22:30:23+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000670s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000624s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008321s ]
+
+[ 2017-04-30T22:30:23+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T22:30:43+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+
+[ 2017-04-30T22:31:59+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+NOTIC: [8] Undefined index: code C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 59 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2017-04-30T22:32:00+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T22:32:03+08:00 ] ::1 /ShowArticle/show/id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002973s ]
+NOTIC: [2048] Declaration of Home\Controller\ShowArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 179 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2017-04-30T22:32:03+08:00 ] ::1 /ShowArticle/addpageview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [2048] Declaration of Home\Controller\ShowArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 179 行.
+
+[ 2017-04-30T22:32:03+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T22:36:24+08:00 ] ::1 /ShowArticle/show/id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+NOTIC: [2048] Declaration of Home\Controller\ShowArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 179 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005809s ]
+
+[ 2017-04-30T22:36:24+08:00 ] ::1 /ShowArticle/addpageview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+NOTIC: [2048] Declaration of Home\Controller\ShowArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 179 行.
+
+[ 2017-04-30T22:36:25+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T22:36:40+08:00 ] ::1 /ShowArticle/addpageview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [2048] Declaration of Home\Controller\ShowArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 179 行.
+
+[ 2017-04-30T22:36:40+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T22:37:24+08:00 ] ::1 /ShowArticle/show/id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+NOTIC: [2048] Declaration of Home\Controller\ShowArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 179 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2017-04-30T22:37:24+08:00 ] ::1 /ShowArticle/addpageview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+NOTIC: [2048] Declaration of Home\Controller\ShowArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 179 行.
+
+[ 2017-04-30T22:37:25+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+ERR: 无法加载控制器:Static
+

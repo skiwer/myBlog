@@ -186,8 +186,8 @@
             var tag = $("#tag").val();
             var outline = $("#outline").val();
             var content = $("#textInput").val();
-            console.log(title, tag, outline, content);
-            console.log("dsadasd");
+            // console.log(title, tag, outline, content);
+            // console.log("dsadasd");
             if (title == "") {
                 alert("请输入标题！");
                 return;
@@ -201,14 +201,17 @@
                 alert("请输入标题！");
                 return;
             } else {
-                var formData = $("form").serialize();
+
                 var markdownData = $("#preview").html();
-                var data = formData + "&markdownContent=" + markdownData;
-                console.log(data);
+                var tmp = $("<input type='text' name='markdownContent'/>");
+                tmp.attr('value', markdownData);
+                $("form").append(tmp);
+                var formData = $("form").serialize();
+                console.log(formData);
                 $.ajax({
                     type: "POST",
                     url: '{:U("Post/post")}',
-                    data: data
+                    data: formData
                 }).done(function(msg) {
                     if (msg) {
                         alert("发布成功！");

@@ -14,6 +14,7 @@ class PostController extends Controller {
 	public function post(){
 		if(isset($_SESSION["uid"])){
 			if($_SESSION["isadmin"]){
+				
 				if($_POST["title"]&&$_POST['tag']&&$_POST['outline']&&$_POST['markdownContent']&&$_POST['content']){
 					$post_obj = new \Home\Model\PostModel('Post','','DB_DSN');
 					$article = array();

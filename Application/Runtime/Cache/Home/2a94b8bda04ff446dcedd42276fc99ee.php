@@ -156,10 +156,10 @@
                             <h2 class="post-title">
                                 <?php echo ($v["title"]); ?>
                             </h2>
+                            <h3 class="post-subtitle">
+                                <?php echo ($v["outline"]); ?>
+                            </h3>
                         </a>
-                        <h3 class="post-subtitle">
-                            <?php echo ($v["outline"]); ?>
-                        </h3>
                         <button type="button" class="btn btn-default btn-xs tag">
 	                        <span class="glyphicon glyphicon-tags"></span> <?php echo ($v["tag"]); ?>
                         </button>
