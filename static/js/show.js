@@ -52,7 +52,7 @@ function mainCommentSubmit() {
                     if (!status.isOk) {
                         login();
                     } else {
-                        addMainComment(status.figureurl, status.nickname, status.time, status.comment, status.number, status.id);
+                        addMainComment(status.figureurl, status.nickname, status.time, status.comment, status.seq, status.id);
                         addCommentNumber(status.number);
                         $("#main-comment").val("");
                     }

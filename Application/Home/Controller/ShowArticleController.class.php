@@ -50,6 +50,8 @@ class ShowArticleController extends Controller {
 				$time = $insertCommentData["time"];
 				$insertId = $insertCommentData["id"];
 
+				$sequence = $commentObj->getMainCommentNumber($id);
+
 				$articleObj = new \Home\Model\ArticleModel('Article','','DB_DSN');
 				$articleObj->addCommentNumber($id);
 				$number = $articleObj->getCommentNumber($id);
@@ -61,6 +63,7 @@ class ShowArticleController extends Controller {
 					'time'=>$time,
 					'comment'=>$comment,
 					'number'=>$number,
+					'seq'=>$sequence,
 					'id'=>$insertId
 				);
 			}

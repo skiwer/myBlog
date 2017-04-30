@@ -32,5 +32,11 @@
                 return $this->where("id=".$id)->field('u_id,u_nickname,figure_url')->find();
             }
         }
+
+        public function getMainCommentNumber($id){
+            if(!empty($id)){
+                return $this->where('article_id='.$id)->count('*');
+            }
+        }
     }
 ?>
