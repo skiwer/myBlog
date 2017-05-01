@@ -86,7 +86,7 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
                         <h1><?php echo ($detail["title"]); ?></h1>
-                        <h2 class="subheading"><?php echo ($detail["outline"]); ?></h2>
+                        <!--<h2 class="subheading"><?php echo ($detail["outline"]); ?></h2>-->
                         <span class="meta">Posted by <a href="#">Skiwer</a> on <?php echo ($detail["date"]); ?></span>
                     </div>
                 </div>

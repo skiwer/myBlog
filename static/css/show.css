@@ -20,9 +20,10 @@
     margin-left: 10px;
 }
 
-#com>.box {
+
+/*#com>.box {
     width: 750px;
-}
+}*/
 
 #postComments>.box {
     width: 665px;
@@ -100,14 +101,14 @@
 }
 
 .cmt-content {
-    width: 100%;
+    /*width: 100%;*/
     margin-left: 45px;
     line-height: 30px;
     word-break: break-all;
 }
 
 .cmt-meta {
-    width: 100%;
+    /*width: 100%;*/
     margin-left: 45px;
     margin-top: 10px;
     font-size: 12px;
@@ -140,15 +141,16 @@
 }
 
 .child-content {
-    width: 665px;
+    /*width: 665px;*/
     margin-left: 45px;
     line-height: 30px;
     word-break: break-all;
 }
 
 .child-meta {
-    width: 100%;
+    /*width: 100%;*/
     margin-left: 45px;
+    margin-top: 10px;
     font-size: 12px;
     color: #bbb;
 }
@@ -157,7 +159,7 @@
 .child-date,
 .main-post-cmt,
 .child-post-cmt {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .main-post-cmt,

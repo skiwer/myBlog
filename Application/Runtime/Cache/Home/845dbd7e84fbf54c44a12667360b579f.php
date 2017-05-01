@@ -199,22 +199,25 @@
             } else {
 
                 var markdownData = $("#preview").html();
-                var tmp = $("<input type='text' name='markdownContent'/>");
-                tmp.attr('value', markdownData);
+                var tmp = $("<textarea name='markdownContent'></textarea>");
+                tmp.val(markdownData);
+                console.log(tmp);
+                console.log(markdownData);
                 $("form").append(tmp);
                 var formData = $("form").serialize();
-                console.log(formData);
+                // console.log(formData);
+                // return;
                 $.ajax({
                     type: "POST",
                     url: '<?php echo U("Post/post");?>',
                     data: formData
                 }).done(function(msg) {
-                    // if (msg) {
-                    //     alert("发布成功！");
-                    //     window.location.href = '<?php echo U("Index/index");?>';
-                    // } else {
-                    //     alert("发布失败！");
-                    // }
+                    if (msg) {
+                        alert("发布成功！");
+                        window.location.href = '<?php echo U("Index/index");?>';
+                    } else {
+                        alert("发布失败！");
+                    }
                 });
             }
         });

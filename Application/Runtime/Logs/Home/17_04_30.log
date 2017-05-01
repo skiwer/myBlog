@@ -5071,3 +5071,416 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
 ERR: 无法加载控制器:Static
 
+[ 2017-04-30T22:58:15+08:00 ] ::1 /Index/hasloged.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+
+[ 2017-04-30T23:01:53+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009571s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002876s ]
+
+[ 2017-04-30T23:05:41+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001489s ]
+
+[ 2017-04-30T23:06:06+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T23:09:48+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+NOTIC: [8] Undefined index: code C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 59 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2017-04-30T23:09:51+08:00 ] ::1 /ShowArticle/show/id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ShowArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 179 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002646s ]
+
+[ 2017-04-30T23:09:52+08:00 ] ::1 /ShowArticle/addpageview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+NOTIC: [2048] Declaration of Home\Controller\ShowArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 179 行.
+
+[ 2017-04-30T23:11:11+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000680s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002892s ]
+
+[ 2017-04-30T23:11:12+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T23:12:43+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003343s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004813s ]
+
+[ 2017-04-30T23:12:43+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T23:12:54+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2017-04-30T23:13:51+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000232s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003525s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.077760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.078367s ]
+
+[ 2017-04-30T23:13:51+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T23:14:00+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2017-04-30T23:16:22+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002723s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010413s ]
+
+[ 2017-04-30T23:16:28+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2017-04-30T23:16:29+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T23:16:42+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2017-04-30T23:19:52+08:00 ] ::1 /Post/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002779s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011787s ]
+
+[ 2017-04-30T23:19:52+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T23:20:01+08:00 ] ::1 /Post/post.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+
+[ 2017-04-30T23:20:07+08:00 ] ::1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000197s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 192 行.
+NOTIC: [8] Undefined index: code C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 8 行.
+NOTIC: [8] A session had already been started - ignoring session_start() C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 59 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\Users\WW\Desktop\myBlog\Application\Home\Controller\IndexController.class.php 第 80 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006226s ]
+
+[ 2017-04-30T23:20:08+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+ERR: 无法加载控制器:Static
+
+[ 2017-04-30T23:20:10+08:00 ] ::1 /ShowArticle/show/id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+NOTIC: [2048] Declaration of Home\Controller\ShowArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 179 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2017-04-30T23:20:11+08:00 ] ::1 /ShowArticle/addpageview.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002514s ]
+NOTIC: [2048] Declaration of Home\Controller\ShowArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\Users\WW\Desktop\myBlog\Application\Home\Controller\ShowArticleController.class.php 第 179 行.
+
+[ 2017-04-30T23:20:11+08:00 ] ::1 /static/vendor/bootstrap/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+ERR: 无法加载控制器:Static
+
