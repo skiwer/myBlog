@@ -29,6 +29,10 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
+        a {
+            -webkit-tap-highlight-color: rgba(255, 0, 0, 0) !important;
+        }
+        
         #main .tag {
             font-family: 'Times New Roman', Times, serif;
             font-size: 10px;
