@@ -251,7 +251,8 @@ hr.small {
     }
 }
 
-.post-preview>a {
+
+/*.post-preview>a {
     color: #333333;
 }
 
@@ -295,7 +296,7 @@ hr.small {
     .post-preview>a>.post-title {
         font-size: 36px;
     }
-}
+}*/
 
 .section-heading {
     font-size: 36px;

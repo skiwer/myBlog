@@ -33,8 +33,8 @@
             -webkit-tap-highlight-color: rgba(255, 0, 0, 0) !important;
         }
         
-        p,
-        li {
+        .container p,
+        .container li {
             font-family: 'Microsoft YaHei';
             letter-spacing: 1px;
         }

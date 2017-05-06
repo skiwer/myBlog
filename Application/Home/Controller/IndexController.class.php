@@ -66,7 +66,8 @@ class IndexController extends Controller {
 		}
 		$addressObj = new \Org\Util\GetAddress();
 		$ip = $addressObj->GetIp();
-		$addressJson = $addressObj->GetIpLookup($ip);
+		$addressArray = $addressObj->GetIpLookup($ip);
+		$addressJson = $addressArray['country'].$addressArray['province'].$addressArray['city'];
 		$userAddressObj = new \Home\Model\UserAddressModel('UserAddress','','DB_DSN');
 		$userAddressObj->addUserAddress($ip,$addressJson);
 		$this->show($nickName,$figureUrl,$openId,$isAdmin);
