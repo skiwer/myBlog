@@ -16,6 +16,7 @@
 
     <!-- Theme CSS -->
     <link href="/static/css/clean-blog.css" rel="stylesheet">
+    <link href="/static/css/home.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="/static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -28,48 +29,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style>
-        #main .tag {
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 10px;
-            color: #333333;
-            padding: 5px 5px;
-            border: none;
-        }
-        
-        #main .tag:hover,
-        #main .tag:active,
-        #main .tag:focus {
-            color: #fff;
-            background-color: #8080c8;
-            border-radius: 2px;
-        }
-        
-        .view,
-        .like,
-        .comment {
-            cursor: pointer;
-            text-decoration: none;
-            margin-right: 10px;
-        }
-        
-        .view>span,
-        .like>span,
-        .comment>span {
-            text-decoration: none;
-            color: #333333;
-            font-size: 15px;
-            margin-left: 6px;
-        }
-        
-        .like:hover .glyphicon-heart-empty {
-            font-size: 18px;
-        }
-        
-        .comment:hover .glyphicon-comment {
-            font-size: 18px;
-        }
-    </style>
+
 </head>
 
 <body>
@@ -95,12 +55,16 @@
                     <li>
                         <a href="<?php echo U('About/index');?>">About</a>
                     </li>
-                    <li>
-                        <a href="<?php echo U('Post/index');?>">Post</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo U('Contact/index');?>">Contact</a>
-                    </li>
+                    <?php if($isadmin == true): ?><li>
+                            <a href="<?php echo U('Post/index');?>">Post</a>
+                        </li><?php endif; ?>
+                    <?php if(empty($nickname)): ?><li>
+                            <a href="<?php echo U('Index/login');?>">Login</a>
+                        </li>
+                        <?php else: ?>
+                        <li>
+                            <a href="<?php echo U('Index/logout');?>">Logout</a>
+                        </li><?php endif; ?>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -110,7 +74,7 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('/static/img/home-bg.jpg')">
+    <header class="intro-header" style="background-image: url('/static/img/bright-1.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -124,43 +88,51 @@
         </div>
     </header>
 
-    <!-- Main Content -->
     <div class="container">
         <div class="row">
-            <div id="main" class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <?php if(is_array($outlines)): $k = 0; $__LIST__ = $outlines;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($k % 2 );++$k;?><div class="post-preview">
-                        <a href="<?php echo U('ShowArticle/show','id='.$v['id']);?>">
-                            <h2 class="post-title">
-                                <?php echo ($v["title"]); ?>
-                            </h2>
-                            <h3 class="post-subtitle">
-                                <?php echo ($v["outline"]); ?>
-                            </h3>
-                        </a>
-                        <button type="button" class="btn btn-default btn-xs tag">
-	                        <span class="glyphicon glyphicon-tags"></span> <?php echo ($v["tag"]); ?>
-                        </button>
-                        <p class="post-meta">Posted by <a href="#">Skiwer</a> on <?php echo ($v["date"]); ?></p>
-                        <div>
-                            <a class="view diabled"><span class="glyphicon glyphicon-eye-open"></span><span class="viewNumber">200<span></a>
-                            <a class="like"><span class="glyphicon glyphicon-heart-empty"></span><span class="likeNumber">2</a>
-                            <a class="comment"><span class="glyphicon glyphicon-comment"></span><span class="commentNumber">2</a>
+            <div id="main" class="col-lg-8 col-md-8">
+                <?php if(is_array($outlines)): $k = 0; $__LIST__ = $outlines;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($k % 2 );++$k;?><div class="post-preview" id="<?php echo ($v["id"]); ?>">
+                        <div class="post-img">
+                            <a href="<?php echo U('ShowArticle/show','id='.$v['id']);?>"><img src="/static/img/dabai.jpg" /></a>
                         </div>
-                    </div>
-                    <hr><?php endforeach; endif; else: echo "" ;endif; ?>
+                        <div class="post-main-content">
+                            <header class="post-title">
+                                <h2>
 
+                                    <a href="<?php echo U('ShowArticle/show','id='.$v['id']);?>"><?php echo ($v["title"]); ?></a>
+                                    <a class="post-tag"><?php echo ($v["tag"]); ?></a>
+                                </h2>
+                            </header>
+                            <div class="post-outline"><?php echo ($v["outline"]); ?></div>
 
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
-                    </li>
-                </ul>
+                        </div>
+                        <div class="post-interact">
+                            <a class="date" href="<?php echo U('ShowArticle/show','id='.$v['id']);?>"><i class="glyphicon glyphicon-time"></i><span><?php echo ($v["date"]); ?></span></a>
+                            <a class="post-user"><i	class="glyphicon glyphicon-user"></i><span>skiwer</span></a>
+                            <a class="view-number"><i class="glyphicon glyphicon-eye-open"></i><span>阅读</span><span class="view-total"><?php echo ($v["view_number"]); ?></span></a>
+                            <a class="like-number">
+                                <?php if($v['liked'] == true): ?><i class="glyphicon glyphicon-heart"></i>
+                                    <?php else: ?><i class="glyphicon glyphicon-heart-empty"></i><?php endif; ?><span>赞</span><span class="like-total"><?php echo ($v["like_number"]); ?></span></span>
+                            </a>
+                            <a class="comment-number" id="<?php echo ($v["id"]); ?>"><i class="glyphicon glyphicon-comment"></i><span>评论</span><span class="comment-total"><?php echo ($v["comment_number"]); ?></span></a>
+                            <a class="view-detail" href="<?php echo U('ShowArticle/show','id='.$v['id']);?>"><span>阅读全文</span><i class="glyphicon glyphicon-chevron-right"></i></a>
+                        </div>
+
+                    </div><?php endforeach; endif; else: echo "" ;endif; ?>
+            </div>
+            <div id="aside" class="col-lg-4 col-md-4">
+                <div id="tags">
+                    <h4 class="tags-title">标签</h4>
+                    <ul class="all-tags">
+                        <?php if(is_array($tags)): $k = 0; $__LIST__ = $tags;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($k % 2 );++$k;?><li><a><?php echo ($v); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 
-    <hr>
+
+
 
     <!-- Footer -->
     <footer>
@@ -168,24 +140,9 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
+
                         <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
+                            <a href="https://github.com/skiwer" target="_blank">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -193,7 +150,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                    <p class="copyright text-muted">Copyright &copy; skiwer.me 2017</p>
                 </div>
             </div>
         </div>
@@ -205,6 +162,26 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
 
+    <script type="text/javascript">
+        var likeurl = "<?php echo U('Index/like');?>";
+        var logurl = "<?php echo U('Index/login');?>";
+        var logedurl = "<?php echo U('Index/hasloged');?>";
+        $(".comment-number").click(function() {
+            var id = $(this).attr("id");
+            var url = "<?php echo U('showArticle/show');?>?id=" + id;
+            $.ajax({
+                type: "GET",
+                url: logedurl
+            }).done(function(status) {
+                if (!status) {
+                    window.location.href = logurl;
+                } else {
+                    window.location.href = url + '#com';
+                }
+            });
+        });
+    </script>
+    <script src="/static/js/home.js"></script>
     <!-- Contact Form JavaScript -->
     <script src="/static/js/jqBootstrapValidation.js"></script>
     <script src="/static/js/contact_me.js"></script>

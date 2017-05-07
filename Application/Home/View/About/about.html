@@ -9,14 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - About</title>
+    <title>About</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="__ROOT__/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="__ROOT__/static/css/clean-blog.min.css" rel="stylesheet">
-
+    <link href="__ROOT__/static/css/clean-blog.css" rel="stylesheet">
+    <link href="__ROOT__/static/css/about.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="__ROOT__/static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='__ROOT__/static/css/font.css' rel='stylesheet' type='text/css'>
@@ -28,7 +28,9 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
 
+    </style>
 </head>
 
 <body>
@@ -54,12 +56,20 @@
                     <li>
                         <a href="{:U('About/index')}">About</a>
                     </li>
-                    <li>
-                        <a href="{:U('Post/index')}">Post</a>
-                    </li>
-                    <li>
-                        <a href="{:U('Contact/index')}">Contact</a>
-                    </li>
+                    <if condition="$isadmin eq true">
+                        <li>
+                            <a href="{:U('Post/index')}">Post</a>
+                        </li>
+                    </if>
+                    <empty name="nickname">
+                        <li>
+                            <a href="{:U('Index/login')}">Login</a>
+                        </li>
+                        <else />
+                        <li>
+                            <a href="{:U('Index/logout')}">Logout</a>
+                        </li>
+                    </empty>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -69,14 +79,14 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('__ROOT__/static/img/about-bg.jpg')">
+    <header class="intro-header" style="background-image: url('__ROOT__/static/img/luca-1.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="page-heading">
-                        <h1>About Me</h1>
+                        <h1>About</h1>
                         <hr class="small">
-                        <span class="subheading">This is what I do.</span>
+                        <span class="subheading">Live well,love lots,and laugh often.</span>
                     </div>
                 </div>
             </div>
@@ -87,14 +97,32 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestiae debitis nobis, quod sapiente qui voluptatum, placeat magni repudiandae accusantium fugit quas labore non rerum possimus, corrupti enim modi! Et.</p>
+                <h3>关于我</h3>
+                <p>Hey，欢迎来到我的博客，我是巫志旺，华南理工大学软件学院大三学生一枚(可惜已不是鲜肉...)， 坐标广州。
+                </p>
+
+                <p>
+                    <ul>
+                        <li>喜欢音乐，只叹没有一副好嗓子，那就跟着打节拍吧
+                        </li>
+                        <li>喜欢电影，感受不一样的人生，获得人生的感悟
+                        </li>
+                        <li>喜欢爬山，不只因为登顶时的神情气爽，还有沿途的风景
+                        </li>
+                        <li>喜欢新颖的技术，主要学习方向为web开发，前端开发小白
+                        </li>
+                    </ul>
+                </p>
+                <h3>关于我的博客</h3>
+                <p>先说说skiwer，其实也没有什么特定的意义，只是想取个英文名，取自sky，暂且认为是“想要飞在天空的男人吧”。其实早就有了自己写个博客的想法，只是没有想好它到底该长什么样，直到遇到了clean-blog，觉得这界面很清爽，就按着这个主题自己改了。后台用的tp框架，部署起来有点坑，不过还好各种翻文档，好歹解决了。目前功能还在完善中，最主要的目的还是记录学习过程中遇到的问题，和大家做个分享，还请大家多指教~
+                </p>
+                <h3>联系我</h3>
+                <p>大家有什么问题、意见之类的可以联系我啦，欢迎一起探讨，这是我的邮箱skiwer.me@gmail.com</p>
             </div>
         </div>
     </div>
 
-    <hr>
+
 
     <!-- Footer -->
     <footer>
@@ -103,23 +131,7 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
                         <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
+                            <a href="https://github.com/skiwer" target="_blank">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -127,7 +139,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                    <p class="copyright text-muted">Copyright &copy; skiwer.me 2017</p>
                 </div>
             </div>
         </div>
