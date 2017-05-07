@@ -1,0 +1,211 @@
+a {
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0) !important;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+.intro-header {
+    margin-bottom: 35px;
+}
+
+#main {
+    margin-top: 0px;
+}
+
+#main>*,
+#aside>* {
+    font-family: 'Microsoft YaHei' !important;
+}
+
+.post-preview {
+    margin: 0 0 25px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    border-radius: 0;
+}
+
+.post-img {
+    position: relative;
+    float: left;
+    width: 240px;
+    height: 145px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.post-preview .post-img img {
+    cursor: pointer;
+    padding: 2px;
+    border: 1px solid #F3F3F3;
+    height: 145px;
+    width: 240px;
+    object-fit: cover;
+}
+
+.post-preview .post-img img:hover {
+    border: 3px solid #F3F3F3;
+}
+
+.post-main-content {
+    padding: 20px 15px;
+    margin-left: 260px;
+    height: 160px;
+    overflow: hidden;
+}
+
+.post-tag {
+    border-radius: 5px;
+    padding: 5px 7px;
+    font-size: 15px;
+    margin-right: 10px;
+    color: white;
+    background-color: #51aded;
+}
+
+.post-tag:hover {
+    color: #fff;
+    background-color: #51aded;
+}
+
+.post-title h2 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.post-outline {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 2.0;
+}
+
+.post-interact {
+    padding: 8px 20px;
+    border-top: 1px solid #F3F3F3;
+    line-height: 27px;
+    overflow: hidden;
+    clear: both;
+    font-size: 12px;
+}
+
+.post-interact a {
+    margin-left: 15px;
+}
+
+.post-interact .date {
+    margin-left: 0;
+}
+
+.post-interact>a>span {
+    margin-left: 2px;
+}
+
+.post-interact a:hover,
+.post-title a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.view-detail {
+    float: right;
+    margin-right: 0;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .post-img {
+        position: relative;
+        float: none;
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .post-preview .post-img img {
+        height: 190px;
+        max-width: 100%;
+        width: 750px;
+        padding: 0;
+        border: 0;
+    }
+    .post-main-content {
+        margin-left: 0;
+        height: auto;
+        padding: 0 20px;
+    }
+    .post-interact .date,
+    .post-interact .post-user {
+        display: none;
+    }
+    .post-interact .view-number {
+        margin-left: 0;
+    }
+    .post-interact .like-number,
+    .post-interact .comment-number {
+        margin-left: 10px;
+    }
+}
+
+#tags {
+    margin: 0 0 25px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    border-radius: 0;
+}
+
+.tags-title {
+    position: relative;
+    margin: 0 0 15px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e7e7e7;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.all-tags li {
+    padding: 8px;
+    background-color: #f6f6f6;
+    color: white;
+    list-style: none;
+    width: 35%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.all-tags li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.all-tags li:hover {
+    cursor: pointer;
+    background-color: #45B6F7;
+}
+
+.all-tags li:hover>a {
+    color: white;
+}
+
+.all-tags {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background: #23282D;
+}
+
+footer p {
+    font-family: 'Microsoft YaHei' !important;
+    color: rgba(255, 255, 255, .5);
+}

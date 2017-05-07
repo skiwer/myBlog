@@ -78,6 +78,8 @@ class IndexController extends Controller {
 
 		$outline_obj = new \Home\Model\ArticleModel('Article','','DB_DSN');
 		$articleOutlines = $outline_obj->findArticleOutlines();
+
+		$tagsArray = $outline_obj->findTags();
 		if(!empty($nickName)&&!empty($figureUrl)&&!empty($uid)){
 			$articleLikeObj = new \Home\Model\ArticleLikeModel('ArticleLike','','DB_DSN');
 			$likedIds = $articleLikeObj->getLikedIds($uid);
@@ -93,6 +95,7 @@ class IndexController extends Controller {
 			$this->assign('nickname',$nickName);
 			$this->assign('figure',$figureUrl);
 			$this->assign('outlines',$articleOutlines);
+			$this->assign('tags',$tagsArray);
 			$this->assign('isadmin',$isAdmin);
 			$this->display('index');
 		}else{

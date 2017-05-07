@@ -16,7 +16,7 @@
 
     <!-- Theme CSS -->
     <link href="/static/css/clean-blog.css" rel="stylesheet">
-
+    <link href="/static/css/about.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="/static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='/static/css/font.css' rel='stylesheet' type='text/css'>
@@ -29,23 +29,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
-        a {
-            -webkit-tap-highlight-color: rgba(255, 0, 0, 0) !important;
-        }
-        
-        .container p,
-        .container li {
-            font-family: 'Microsoft YaHei';
-            letter-spacing: 1px;
-        }
-        
-        footer {
-            background: #23282D;
-        }
-        
-        footer p {
-            color: rgba(255, 255, 255, .5);
-        }
+
     </style>
 </head>
 

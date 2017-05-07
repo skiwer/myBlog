@@ -7,6 +7,8 @@ a {
 #content {
     margin-top: 30px;
     word-break: break-all;
+    font-family: 'Microsoft YaHei';
+    letter-spacing: 1px;
 }
 
 #title,

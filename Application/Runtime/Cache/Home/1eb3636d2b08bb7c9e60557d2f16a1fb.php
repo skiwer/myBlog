@@ -22,12 +22,7 @@
     <link href="/static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='/static/css/font.css' rel='stylesheet' type='text/css'>
     <link href='/static/css/open-font.css' rel='stylesheet' type='text/css'>
-    <style>
-        #content {
-            font-family: 'Microsoft YaHei';
-            letter-spacing: 1px;
-        }
-    </style>
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

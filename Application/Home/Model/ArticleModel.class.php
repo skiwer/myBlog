@@ -12,6 +12,10 @@ class ArticleModel extends Model {
         $outline = $this->where('has_deleted=0')->order('date DESC')->select();
         return $outline;
      }
+     
+     public function findTags(){
+         return $this->getField('tag',true);
+     }
 
      public function findArticleDetail($id){
          return $this->where('has_deleted=0 AND id='.$id)->find();
