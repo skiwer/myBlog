@@ -24,10 +24,48 @@ a {
     margin-left: 10px;
 }
 
+blockquote p {
+    font-style: normal;
+    margin: 0;
+}
 
-/*#com>.box {
-    width: 750px;
-}*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #title {
+        margin: 0 0 20px 0;
+    }
+    .info .date,
+    .info .tag,
+    .info .view,
+    .info .like,
+    .info .comment {
+        padding: 3px;
+        display: block;
+    }
+    .info .date,
+    .info .tag {
+        margin-left: 0;
+        text-align: center;
+    }
+    .info .date {
+        float: left;
+        width: 60%;
+    }
+    .info .tag {
+        margin-left: 60%;
+    }
+    .info .view {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 33%;
+    }
+    .info .like,
+    .info .comment {
+        margin: 0;
+        float: left;
+        width: 33.3%;
+    }
+}
 
 #postComments>.box {
     width: 665px;
@@ -95,20 +133,40 @@ a {
 
 /*评论列表*/
 
+#postComments>*,
+.commentList>*,
+.box>* {
+    font-family: 'Microsoft YaHei' !important;
+    letter-spacing: 1px;
+    color: #666;
+    word-break: break-all;
+}
+
 #postComments {
     margin-top: 50px;
 }
 
 .commentList {
     margin-top: 50px;
-    color: #555;
 }
 
 .cmt-content {
-    /*width: 100%;*/
+    width: 90%;
     margin-left: 45px;
     line-height: 30px;
     word-break: break-all;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .cmt-content {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 480px) {
+    .cmt-content {
+        width: 80%;
+    }
 }
 
 .cmt-meta {
@@ -227,14 +285,18 @@ a {
     content: "\f086";
 }
 
-.rollbar li:hover h6 {
-    right: 100%;
-}
-
-.rollbar li:hover,
-.rollbar li:hover h6 {
-    opacity: .9;
-    filter: alpha(opacity=90);
+@media screen and (min-width: 760px) {
+    .rollbar {
+        display: block !important;
+    }
+    .rollbar li:hover h6 {
+        right: 100%;
+    }
+    .rollbar li:hover,
+    .rollbar li:hover h6 {
+        opacity: .9;
+        filter: alpha(opacity=90);
+    }
 }
 
 .rollbar .fa-comments {
@@ -284,4 +346,13 @@ a {
     border-left: 4px solid #666;
     border-top: 4px solid rgba(0, 0, 0, 0);
     border-bottom: 4px solid rgba(0, 0, 0, 0);
+}
+
+footer {
+    background: #23282D;
+}
+
+footer p {
+    font-family: 'Microsoft YaHei' !important;
+    color: rgba(255, 255, 255, .5);
 }

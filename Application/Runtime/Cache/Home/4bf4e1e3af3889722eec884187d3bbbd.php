@@ -15,7 +15,7 @@
     <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="/static/css/clean-blog.min.css" rel="stylesheet">
+    <link href="/static/css/clean-blog.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="/static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -37,6 +37,14 @@
         .container li {
             font-family: 'Microsoft YaHei';
             letter-spacing: 1px;
+        }
+        
+        footer {
+            background: #23282D;
+        }
+        
+        footer p {
+            color: rgba(255, 255, 255, .5);
         }
     </style>
 </head>
@@ -126,7 +134,7 @@
         </div>
     </div>
 
-    <hr>
+
 
     <!-- Footer -->
     <footer>

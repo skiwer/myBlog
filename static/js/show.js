@@ -275,3 +275,10 @@ function showSubFrame(element) {
         }
     });
 }
+
+$(window).scroll(function() {
+    $(".rollbar").css("display", "block");
+    setTimeout(function() {
+        $(".rollbar").css("display", "none");
+    }, 2000);
+});

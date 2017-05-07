@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sample Post</title>
+    <title><?php echo ($detail["title"]); ?></title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -103,7 +103,7 @@
                     <div class="info">
                         <span class="date"><?php echo ($detail["date"]); ?></span>
                         <span class="tag">分类：<?php echo ($detail["tag"]); ?></span>
-                        <span class="like">阅读(<span class="view-number"><?php echo ($detail["view_number"]); ?></span>)</span>
+                        <span class="view">阅读(<span class="view-number"><?php echo ($detail["view_number"]); ?></span>)</span>
                         <span class="like">赞(<?php echo ($detail["like_number"]); ?>)</span>
                         <span class="comment">评论(<span class="comment-number"><?php echo ($detail["comment_number"]); ?></span>)</span>
                     </div>
@@ -144,7 +144,7 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" id="postComments">
                     <?php if(is_array($comments)): $key = 0; $__LIST__ = $comments;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$value): $mod = ($key % 2 );++$key;?><div class="commentList">
                             <div class="cmt-main">
-                                <span class="seq"><?php echo count($comments)-$key+1;?>楼</span>
+                                <div class="seq"><?php echo count($comments)-$key+1;?>楼</div>
                                 <div class="head">
                                     <img src="<?php echo ($value['figure_url']); ?>" alt="figure" />
                                 </div>
@@ -189,7 +189,7 @@
     </article>
 
 
-    <div class="rollbar" style="display: block;">
+    <div class="rollbar" style="display: none;">
         <ul>
             <li>
                 <a href="#com">
@@ -221,7 +221,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; skiwer.me</p>
+                    <p class="copyright text-muted">Copyright &copy; skiwer.me 2017</p>
                 </div>
             </div>
         </div>
