@@ -40,6 +40,7 @@ class ShowArticleController extends Controller {
 		if(isset($_SESSION["nickname"])){
 			$nickname = $_SESSION["nickname"];
 			$uid = $_SESSION["uid"];
+			
 			if($_POST["comment"]&&$_POST["id"]){
 				$comment = strip_tags(htmlspecialchars($_POST['comment']));
 				$id = intval($_POST["id"]);
