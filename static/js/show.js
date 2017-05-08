@@ -37,18 +37,18 @@ function mainCommentSubmit() {
             window.location.href = loginurl;
         } else {
             var val = $("#main-comment").val().trim();
-            console.log(val);
+            var postdata = { "comment": val, "id": articleId };
+
             if (val == "") {
                 return;
             } else {
                 $.ajax({
                     type: "POST",
                     url: mainUrl,
-                    data: "comment=" + val + "&id=" + articleId,
+                    data: postdata,
                     dataType: "json"
                 }).done(function(status) {
                     status = JSON.parse(status);
-                    console.log(status);
                     if (!status.isOk) {
                         login();
                     } else {
@@ -71,15 +71,13 @@ function subCommentSubmit(element) {
         return;
     } else {
         var id = main.attr('id');
-        console.log(id);
         $.ajax({
             type: "POST",
             url: subUrl,
-            data: "id=" + id + "&comment=" + value.trim() + "&articleid=" + articleId,
+            data: { "id": id, "comment": value.trim(), "articleid": articleId },
             dataType: "json",
         }).done(function(status) {
             status = JSON.parse(status);
-            console.log(status);
             if (!status.isOk) {
                 window.location.href = loginurl;
             } else {
@@ -151,12 +149,10 @@ function addSubComment(nickname_from, nickname_to, figure, time, comment, is_fro
                     <span class="child-post-cmt" onclick="showSubFrame(this)" id="fromsub-` + id + `">回复</span>
                 </div>
                 </div>`;
-        console.log("dasdasdas");
         element.parents(".cmt-children").append(html);
         $("#postComments").find(".box").remove();
 
     }
-    console.log(html);
 
 }
 
@@ -169,8 +165,6 @@ function addCommentNumber(number) {
 //主评论弹出框
 function showMainFrame(element) {
     var main = $(element);
-    console.log(main);
-    console.log($(this));
     $.ajax({
         type: "GET",
         url: logurl,
@@ -180,10 +174,8 @@ function showMainFrame(element) {
             window.location.href = loginurl;
         } else {
             var figure = status;
-            console.log("clicked");
             var cmtlist = main.parents(".commentList");
             var l = cmtlist.find(".cmt-children").length;
-            console.log(l);
             if (l == 0) {
                 //当前回复无子回复
                 $(".cmt-children").find(".box").remove();
@@ -202,7 +194,6 @@ function showMainFrame(element) {
                                             </div>
                                     </div>
                                 </div>`;
-                console.log(html);
                 cmtlist.find(".cmt-main").after(html);
 
             } else {
@@ -239,7 +230,6 @@ function showMainFrame(element) {
 //子评论弹出框
 function showSubFrame(element) {
     var child = $(element);
-    console.log(child);
     $.ajax({
         type: "GET",
         url: logurl,
@@ -248,7 +238,6 @@ function showSubFrame(element) {
         if (!status) {
             window.location.href = loginurl;
         } else {
-            console.log("clicked");
             var figure = status;
             var cmtlist = child.parents(".commentList");
             var next = child.parents(".cmt-child").next();
