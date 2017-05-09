@@ -22,3 +22,12 @@ $(".like-number").click(function() {
         }
     });
 });
+
+setTimeout(function() {
+    $(".post-preview").css({
+        "opacity": 1
+    });
+    $("#tags").css({
+        "opacity": 1
+    });
+}, 500);

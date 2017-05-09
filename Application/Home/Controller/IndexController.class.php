@@ -2,6 +2,8 @@
 namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
+	
+	//显示主页
 	public function index(){
 
 		//若请求中带有code和state参数，判断参数是否正确
@@ -36,24 +38,6 @@ class IndexController extends Controller {
 				$figureUrl = $_SESSION["figureurl"];
 				$isAdmin = $_SESSION["isadmin"];
 			}
-			// return;
-
-			// $url = "https://graph.qq.com/oauth2.0/token?grant_type=authorization_code&client_id=101398404&client_secret=949cf1f443597224e0e3cd77d64437ff&code=".$code."&redirect_uri=http://localhost:8080/index.php";
-			// //access_token
-			// $accessToken = explode("&",explode("access_token=",$this->curl_get_data($url))[1])[0];
-			// $url = "https://graph.qq.com/oauth2.0/me?access_token=".$accessToken;
-			// //openid
-			// $userId = $this->curl_get_data($url);
-			// $openId = explode('"}',explode('"openid":"',$userId)[1])[0];
-			// $url = "https://graph.qq.com/user/get_user_info?access_token=".$accessToken."&oauth_consumer_key=101398404&openid=".$openId;
-			// $userinfo = json_decode($this->curl_get_data($url),true);
-			// //nick name
-			// $nickName = $userinfo["nickname"];
-			// //figure url
-			// $figureUrl = $userinfo["figureurl_qq_2"];
-			// setcookie("user",base64_encode($openId),time()+3600);
-			// setcookie("nickname",base64_encode($nickName),time()+3600);
-			// setcookie("figure",base64_encode($figureUrl),time()+3600);
 		}else{
 			//根据session判断用户是否已登录
 			session_start();
@@ -64,12 +48,16 @@ class IndexController extends Controller {
 				$isAdmin = $_SESSION["isadmin"];
 			}
 		}
+
+		//获取用户IP AND 物理地址
 		$addressObj = new \Org\Util\GetAddress();
 		$ip = $addressObj->GetIp();
 		$addressArray = $addressObj->GetIpLookup($ip);
 		$addressJson = $addressArray['country'].$addressArray['province'].$addressArray['city'];
 		$userAddressObj = new \Home\Model\UserAddressModel('UserAddress','','DB_DSN');
 		$userAddressObj->addUserAddress($ip,$addressJson);
+
+
 		$this->show($nickName,$figureUrl,$openId,$isAdmin);
 		
 	}
@@ -79,7 +67,28 @@ class IndexController extends Controller {
 		$outline_obj = new \Home\Model\ArticleModel('Article','','DB_DSN');
 		$articleOutlines = $outline_obj->findArticleOutlines();
 
-		$tagsArray = $outline_obj->findTags();
+		$tagsObj = new \Home\Model\TagsModel('Tags','','DB_DSN');
+		//查找每篇文章对应的标签
+		if(!empty($articleOutlines)){
+			foreach($articleOutlines as $k=>$v){
+				$singleArticleTag = $articleOutlines[$k]['tag'];
+				$singleArticleTagArray = explode(",",$singleArticleTag);
+				
+				$singleTagArray = array();
+				foreach($singleArticleTagArray as $key => $value){
+					$singleTagArray[$value] = $tagsObj->getTag(intval($value));
+				}
+				$articleOutlines[$k]['tag'] = $singleTagArray;
+			}
+		}
+		
+
+
+		//查找所有标签
+		$tagsArray = $tagsObj->findTags();
+
+
+		//对每篇文章判断当前用户是否点过赞
 		if(!empty($nickName)&&!empty($figureUrl)&&!empty($uid)){
 			$articleLikeObj = new \Home\Model\ArticleLikeModel('ArticleLike','','DB_DSN');
 			$likedIds = $articleLikeObj->getLikedIds($uid);
@@ -91,6 +100,8 @@ class IndexController extends Controller {
                 }
             }
 		}
+
+		//在主页显示所有文章
 		if($articleOutlines){
 			$this->assign('nickname',$nickName);
 			$this->assign('figure',$figureUrl);
@@ -99,10 +110,11 @@ class IndexController extends Controller {
 			$this->assign('isadmin',$isAdmin);
 			$this->display('index');
 		}else{
-			$this->jump('mysql error',U('Index/index'));
+			$this->jump('something go in a wrong way',U('Index/index'));
 		}
 	}
 	
+	//判断是否为管理员
 	protected function isAdmin($uid){
 		$adminObj = new \Home\Model\AdminModel('Admin','','DB_DSN');
 		$isAdmin = $adminObj->adminJudge($uid);
@@ -112,6 +124,7 @@ class IndexController extends Controller {
 		return true;
 	}
 
+	//判断是否登录
 	public function hasloged(){
 		if(isset($_SESSION['nickname'])){
 			$this->ajaxReturn($_SESSION['figureurl']);
@@ -138,6 +151,7 @@ class IndexController extends Controller {
 		$this->index();
 	}
 
+	//处理like请求
 	public function like(){
 		if(isset($_POST["id"])){
 			$id = intval($_POST["id"]);
@@ -177,6 +191,7 @@ class IndexController extends Controller {
 			}
 		}
 	}
+
 	//用于发生错误时的页面跳转
 	protected function jump($msg,$url){
 		echo "<script language='javascript'>
