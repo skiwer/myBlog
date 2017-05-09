@@ -101,7 +101,8 @@
                     <h1 id="title">{$detail["title"]}</h1>
                     <div class="info">
                         <span class="date">{$detail["date"]}</span>
-                        <span class="tag">分类：{$detail["tag"]}</span>
+                        <span class="tag">标签：<volist name="detail['tag']" id="v"><span>{$v}</span></volist>
+                        </span>
                         <span class="view">阅读(<span class="view-number">{$detail["view_number"]}</span>)</span>
                         <span class="like">赞({$detail["like_number"]})</span>
                         <span class="comment">评论(<span class="comment-number">{$detail["comment_number"]}</span>)</span>

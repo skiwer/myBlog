@@ -6,6 +6,16 @@ class ShowArticleController extends Controller {
 		$id = intval($id);
 		$showDetailObj = new \Home\Model\ArticleModel('Article','','DB_DSN');
 		$articleDetail = $showDetailObj->findArticleDetail($id);
+
+		$tagIdArr = explode(',',$articleDetail['tag']);
+		$tagsObj = new \Home\Model\TagsModel('Tags','','DB_DSN');
+
+		$tagArr = array();
+		foreach($tagIdArr as $k => $v){
+			$tagArr[$v] = $tagsObj->getTag(intval($v));
+		}
+		$articleDetail['tag'] = $tagArr;
+		
 		$commentObj = new \Home\Model\CommentsModel('Comments','','DB_DSN');
 		$comments = $commentObj->getComments($id);
 		$subCommentObj = new \Home\Model\SubCommentsModel('SubComments','','DB_DSN');

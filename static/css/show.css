@@ -51,10 +51,48 @@ blockquote p {
     }
     .info .date {
         float: left;
-        width: 60%;
+        width: 55%;
     }
     .info .tag {
-        margin-left: 60%;
+        margin-left: 55%;
+    }
+    .info .view {
+        clear: both;
+        float: left;
+        margin-left: 0;
+        width: 33%;
+    }
+    .info .like,
+    .info .comment {
+        margin: 0;
+        float: left;
+        width: 33.3%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 360px) {
+    #title {
+        margin: 0 0 20px 0;
+    }
+    .info .date,
+    .info .tag,
+    .info .view,
+    .info .like,
+    .info .comment {
+        padding: 3px;
+        display: block;
+    }
+    .info .date,
+    .info .tag {
+        margin-left: 0;
+        text-align: center;
+    }
+    .info .date {
+        float: left;
+        width: 50%;
+    }
+    .info .tag {
+        margin-left: 50%;
     }
     .info .view {
         clear: both;
