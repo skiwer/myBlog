@@ -13,9 +13,6 @@ class ArticleModel extends Model {
         return $outline;
      }
      
-     public function findTags(){
-         return $this->getField('tag',true);
-     }
 
      public function findArticleDetail($id){
          return $this->where('has_deleted=0 AND id='.$id)->find();
@@ -57,6 +54,15 @@ class ArticleModel extends Model {
      public function getPageView($id){
          if(!empty($id)){
              return $this->where('id='.intval($id))->getField('view_number');
+         }
+     }
+
+     public function getArticleByTag($id){
+         if($id != ""){
+             $sql = 'has_deleted=0 and (tag like "'.$id.',%" or tag like "%,'.$id.'" or tag="'.$id.'")';
+             
+             $articleArray = $this->where($sql)->select();
+             return $articleArray;
          }
      }
 }
