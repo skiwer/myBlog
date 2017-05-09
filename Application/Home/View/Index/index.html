@@ -131,11 +131,11 @@
             <div id="aside" class="col-lg-4 col-md-4">
                 <div id="tags">
                     <h4 class="tags-title">标签</h4>
-                    <ul class="all-tags">
+                    <div class="all-tags">
                         <volist name="tags" id="v" key="k">
-                            <li><a href="{:U('Tag/show','id='.$v['id'])}">{$v.content}</a></li>
+                            <a href="{:U('Tag/show','id='.$v['id'])}">{$v.content}</a>
                         </volist>
-                    </ul>
+                    </div>
                 </div>
             </div>
         </div>

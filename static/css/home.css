@@ -59,12 +59,14 @@ body {
 }
 
 .post-tag {
-    border-radius: 4px;
+    position: relative;
+    border-radius: 3px;
     padding: 5px 7px;
-    font-size: 15px;
-    margin-right: 10px;
+    font-size: 12px;
+    margin-left: 8px;
     color: #51aded;
     border: 1px solid #51aded;
+    top: -2px;
 }
 
 .post-tag:hover {
@@ -74,13 +76,14 @@ body {
 
 .post-title h2 {
     margin: 0;
-    font-size: 25px;
+    font-size: 18px;
+    line-height: 24px;
     font-weight: 500;
 }
 
 .post-outline {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 2.0;
 }
 
@@ -173,10 +176,18 @@ body {
     font-weight: 400;
 }
 
-.all-tags li {
+.all-tags {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+.all-tags a {
     padding: 8px;
     background-color: #f6f6f6;
-    color: white;
+    color: #999;
     list-style: none;
     width: 35%;
     margin-left: 10%;
@@ -184,26 +195,10 @@ body {
     text-align: center;
 }
 
-.all-tags li a {
-    color: #999;
-    text-decoration: none;
-}
-
-.all-tags li:hover {
+.all-tags a:hover {
+    color: white;
     cursor: pointer;
     background-color: #45B6F7;
-}
-
-.all-tags li:hover>a {
-    color: white;
-}
-
-.all-tags {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    display: -webkit-flex;
-    flex-wrap: wrap;
 }
 
 footer {
