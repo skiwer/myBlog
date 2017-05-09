@@ -106,7 +106,7 @@
 
                                     <a href="{:U('ShowArticle/show','id='.$v['id'])}">{$v.title}</a>
                                     <volist name="v['tag']" id="value" key="item">
-                                        <a href="{:U('Tag/show','id='.$item)}" class="post-tag">{$value}</a>
+                                        <a href="{:U('Tag/show','id='.$key)}" class="post-tag">{$value}</a>
                                     </volist>
                                 </h2>
                             </header>
