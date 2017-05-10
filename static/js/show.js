@@ -187,7 +187,7 @@ function showMainFrame(element) {
                                                 <img src="` + figure + `" alt="figure" />
                                             </div>
                                             <div class="cmt">
-                                                <textarea onfocus="javascript:checkLog()" placeholder="你的评论可以一针见血" name="comment" class="comment" cols="100%" rows="3" tabindex="1"></textarea>
+                                                <textarea onfocus="javascript:checkLog()" spellcheck="false" placeholder="你的评论可以一针见血" name="comment" class="comment" cols="100%" rows="3" tabindex="1"></textarea>
                                                 <div class="sbm">
                                                     <button type="button" id="` + main.attr('id') + `" onclick="subCommentSubmit(this)" class="btn btn-default btn-xs submit">提交评论</button>
                                                 </div>
@@ -213,7 +213,7 @@ function showMainFrame(element) {
                                                 <img src="` + figure + `" alt="figure" />
                                             </div>
                                             <div class="cmt">
-                                                <textarea onfocus="javascript:checkLog()" placeholder="你的评论可以一针见血" name="comment" class="comment" cols="100%" rows="3" tabindex="1"></textarea>
+                                                <textarea onfocus="javascript:checkLog()" spellcheck="false" placeholder="你的评论可以一针见血" name="comment" class="comment" cols="100%" rows="3" tabindex="1"></textarea>
                                                 <div class="sbm">
                                                     <button type="button" id="` + main.attr('id') + `"onclick="subCommentSubmit(this)" class="btn btn-default btn-xs submit">提交评论</button>
                                                 </div>
@@ -252,7 +252,7 @@ function showSubFrame(element) {
                                 <img src="` + figure + `" alt="figure" />
                             </div>
                             <div class="cmt">
-                                <textarea onfocus="javascript:checkLog()" placeholder="你的评论可以一针见血" name="comment" class="comment" cols="100%" rows="3" tabindex="1"></textarea>
+                                <textarea onfocus="javascript:checkLog()" spellcheck="false" placeholder="你的评论可以一针见血" name="comment" class="comment" cols="100%" rows="3" tabindex="1"></textarea>
                                 <div class="sbm">
                                     <button type="button" id="` + child.attr('id') + `" onclick="subCommentSubmit(this)" class="btn btn-default btn-xs submit">提交评论</button>
                                 </div>
@@ -265,6 +265,35 @@ function showSubFrame(element) {
     });
 }
 
+$(".comment").keyup(function() {
+    var maxLimit = 200;
+    var length = $(this).val().length;
+
+    if (length > maxLimit) {
+        $(this).val($(this).val().substring(0, maxLimit));
+        alert("字数超过限制！");
+    }
+});
+
+$(".comment").keydown(function() {
+    var maxLimit = 200;
+    var length = $(this).val().length;
+
+    if (length > maxLimit) {
+        $(this).val($(this).val().substring(0, maxLimit));
+        alert("字数超过限制！");
+    }
+});
+
+$(".comment").keypress(function() {
+    var maxLimit = 200;
+    var length = $(this).val().length;
+
+    if (length > maxLimit) {
+        $(this).val($(this).val().substring(0, maxLimit));
+        alert("字数超过限制！");
+    }
+});
 $(window).scroll(function() {
     $(".rollbar").css("display", "block");
     setTimeout(function() {

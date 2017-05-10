@@ -47,8 +47,10 @@ body {
     object-fit: cover;
 }
 
-.post-preview .post-img img:hover {
-    border: 3px solid #F3F3F3;
+@media screen and (min-width: 768px) {
+    .post-preview .post-img img:hover {
+        border: 3px solid #F3F3F3;
+    }
 }
 
 .post-main-content {

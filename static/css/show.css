@@ -1,4 +1,5 @@
-a {
+a,
+textarea {
     -webkit-tap-highlight-color: rgba(255, 0, 0, 0) !important;
     text-decoration: none !important;
 }
@@ -6,10 +7,28 @@ a {
 #title,
 #date,
 #content {
-    margin-top: 30px;
+    margin-top: 50px;
     word-break: break-all;
     font-family: 'Microsoft YaHei';
     letter-spacing: 1px;
+}
+
+#content h1 {
+    font-size: 30px;
+}
+
+#content h2 {
+    font-size: 25px;
+}
+
+#content h3 {
+    font-size: 22px;
+}
+
+#content h2,
+#content h3 {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 #title,
