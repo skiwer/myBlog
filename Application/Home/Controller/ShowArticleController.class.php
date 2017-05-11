@@ -7,6 +7,11 @@ class ShowArticleController extends Controller {
 		$showDetailObj = new \Home\Model\ArticleModel('Article','','DB_DSN');
 		$articleDetail = $showDetailObj->findArticleDetail($id);
 
+		if(empty($articleDetail)){
+			echo "不存在的文章";
+			return;
+		}
+
 		$tagIdArr = explode(',',$articleDetail['tag']);
 		$tagsObj = new \Home\Model\TagsModel('Tags','','DB_DSN');
 
@@ -15,7 +20,7 @@ class ShowArticleController extends Controller {
 			$tagArr[$v] = $tagsObj->getTag(intval($v));
 		}
 		$articleDetail['tag'] = $tagArr;
-		
+
 		$commentObj = new \Home\Model\CommentsModel('Comments','','DB_DSN');
 		$comments = $commentObj->getComments($id);
 		$subCommentObj = new \Home\Model\SubCommentsModel('SubComments','','DB_DSN');
