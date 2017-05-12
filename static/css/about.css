@@ -20,10 +20,29 @@ a {
     transform: rotate(360deg) scale(1.2, 1.2);
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    h1 {
+        font-size: 25px !important;
+    }
+    h2 {
+        font-size: 22px !important;
+    }
+    p {
+        font-size: 18px !important;
+    }
+    .page-heading .subheading {
+        font-size: 20px !important;
+    }
+}
+
 .container p,
 .container li {
     font-family: 'Microsoft YaHei';
     letter-spacing: 1px;
+}
+
+#about-info {
+    margin-bottom: 30px;
 }
 
 footer {
