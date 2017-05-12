@@ -21,12 +21,13 @@ body {
 }
 
 .post-preview {
+    overflow: hidden;
     transition: 1s;
     opacity: 0;
     margin: 0 0 25px;
     background-color: #fff;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
-    border-radius: 0;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
 }
 
 .post-img {
@@ -173,8 +174,8 @@ body {
     margin: 0 0 25px;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
-    border-radius: 0;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
 }
 
 .tags-title {

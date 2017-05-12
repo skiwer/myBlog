@@ -19,16 +19,17 @@ textarea {
 
 #content h2 {
     font-size: 25px;
-}
-
-#content h3 {
-    font-size: 22px;
-}
-
-#content h2,
-#content h3 {
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+#content h3 {
+    background-color: #f6f6f6;
+    border-left: 5px solid #888;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 22px;
 }
 
 #title,
@@ -49,6 +50,16 @@ textarea {
 blockquote p {
     font-style: normal;
     margin: 0;
+}
+
+#content pre {
+    overflow: auto;
+    padding: 16px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+    font-size: 85%;
+    line-height: 1.45;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
