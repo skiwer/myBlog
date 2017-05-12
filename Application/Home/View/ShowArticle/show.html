@@ -151,9 +151,10 @@
                                 <div class="head">
                                     <img src="{$value['figure_url']}" alt="figure" />
                                 </div>
+                                <div class="user-info"><span class="main-user">{$value["u_nickname"]}</span></div>
                                 <div class="cmt-content">{$value["comment"]}</div>
                                 <div class="cmt-meta">
-                                    <span class="main-user">{$value["u_nickname"]}</span>
+
                                     <span class="main-date">{$value["date"]}</span>
                                     <span class="main-post-cmt" id="main-{$value['id']}" onclick="javascript:showMainFrame(this)">回复</span>
                                 </div>
@@ -167,11 +168,14 @@
                                             <div class="child-head">
                                                 <img src="{$v['figure_from']}" alt="figure" />
                                             </div>
-                                            <div class="child-content">{$v["comment"]}</div>
-                                            <div class="child-meta">
+                                            <div class="child-user-info">
                                                 <span class="answerby">{$v["u_nickname_from"]}</span>
                                                 <span>回复</span>
                                                 <span class="answerto">{$v["u_nickname_to"]}</span>
+                                            </div>
+                                            <div class="child-content">{$v["comment"]}</div>
+                                            <div class="child-meta">
+
                                                 <span class="child-date">{$v["date"]}</span>
                                                 <if condition="$v['is_from_main'] eq 1">
                                                     <span class="child-post-cmt" id="frommain-{$v['id']}" onclick="javascript:showSubFrame(this)">回复</span>
@@ -185,7 +189,6 @@
                                     </volist>
                                 </div>
                             </notempty>
-                            <hr>
                         </div>
                     </volist>
 

@@ -139,6 +139,7 @@ blockquote p {
 }
 
 #postComments>.box {
+    transition: 0.5s;
     width: 665px;
 }
 
@@ -158,10 +159,17 @@ blockquote p {
 
 .cmt {
     margin-left: 45px;
-    padding: 4px 0 0 0;
-    border: 2px solid #ccd4d9;
+    padding: 0;
+    border: 1px solid #f5f5f5;
     border-radius: 2px;
     overflow: hidden;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .15);
+    transition: 0.5s;
+}
+
+.cmt:hover,
+.cmt:active {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
 }
 
 .comment {
@@ -180,7 +188,7 @@ blockquote p {
     height: 100%;
     padding: 0;
     text-align: right;
-    background-color: #f6f6f6;
+    border-top: 1px solid #f5f5f5;
 }
 
 .submit {
@@ -188,9 +196,10 @@ blockquote p {
     padding: 5px;
     width: 100px;
     border: none;
-    background-color: #45B6F7;
-    color: #fff;
+    border-left: 1px solid #f5f5f5;
+    color: #787968;
     outline: none;
+    height: 35px;
 }
 
 .sbm>.submit:hover,
@@ -204,6 +213,21 @@ blockquote p {
 
 /*评论列表*/
 
+.commentList img,
+.box img {
+    cursor: pointer;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.commentList img:hover,
+.box img:hover {
+    transform: rotate(360deg) scale(1.2, 1.2);
+}
+
 #postComments>*,
 .commentList>*,
 .box>* {
@@ -214,17 +238,36 @@ blockquote p {
 }
 
 #postComments {
-    margin-top: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .commentList {
-    margin-top: 50px;
+    margin-top: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .15), 0 1px 0 rgba(255, 255, 255, .75) inset;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.commentList:hover {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, .15);
+}
+
+.user-info,
+.child-user-info {
+    margin-left: 45px;
+    font-weight: bold;
+    color: #696A52;
+    font-size: 14px;
 }
 
 .cmt-content {
+    color: #787968;
+    font-size: 14px;
     width: 90%;
     margin-left: 45px;
-    line-height: 30px;
+    line-height: 25px;
     word-break: break-all;
 }
 
@@ -243,7 +286,7 @@ blockquote p {
 .cmt-meta {
     /*width: 100%;*/
     margin-left: 45px;
-    margin-top: 10px;
+    margin-top: 2px;
     font-size: 12px;
     color: #bbb;
 }
@@ -275,15 +318,17 @@ blockquote p {
 
 .child-content {
     /*width: 665px;*/
+    color: #787968;
+    font-size: 14px;
     margin-left: 45px;
-    line-height: 30px;
+    line-height: 25px;
     word-break: break-all;
 }
 
 .child-meta {
     /*width: 100%;*/
     margin-left: 45px;
-    margin-top: 10px;
+    margin-top: 2px;
     font-size: 12px;
     color: #bbb;
 }
@@ -292,7 +337,7 @@ blockquote p {
 .child-date,
 .main-post-cmt,
 .child-post-cmt {
-    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .main-post-cmt,

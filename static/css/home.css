@@ -1,6 +1,7 @@
 a {
     -webkit-tap-highlight-color: rgba(255, 0, 0, 0) !important;
     text-decoration: none !important;
+    transition: 0.25s;
 }
 
 body {
@@ -22,12 +23,45 @@ body {
 
 .post-preview {
     overflow: hidden;
-    transition: 1s;
+    transition: 0.5s;
     opacity: 0;
     margin: 0 0 25px;
     background-color: #fff;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
+}
+
+@-webkit-keyframes mymove
+/*Safari and Chrome*/
+
+{
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(10px);
+    }
+    40% {
+        transform: translateX(-10px);
+    }
+    60% {
+        transform: translateX(5px);
+    }
+    80% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.post-preview:hover {
+    transition: 0.25s;
+    transform: scale(1.01, 1.01);
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.5);
+    /*animation: mymove 0.8s;
+    -webkit-animation: mymove 0.8s;*/
+    /*Safari and Chrome*/
 }
 
 .post-img {
@@ -40,6 +74,7 @@ body {
 }
 
 .post-preview .post-img img {
+    transition: 0.5s;
     cursor: pointer;
     padding: 2px;
     border: 1px solid #F3F3F3;
@@ -50,7 +85,12 @@ body {
 
 @media screen and (min-width: 768px) {
     .post-preview .post-img img:hover {
-        border: 3px solid #F3F3F3;
+        /*border: 3px solid #F3F3F3;*/
+        -moz-transform: scale(1.2, 1.2);
+        -webkit-transform: scale(1.2, 1.2);
+        -o-transform: scale(1.2, 1.2);
+        -ms-transform: scale(1.2, 1.2);
+        transform: scale(1.2, 1.2);
     }
 }
 
@@ -62,14 +102,17 @@ body {
 }
 
 .post-tag {
+    display: inline-block;
     position: relative;
     border-radius: 3px;
-    padding: 5px 7px;
+    padding: 0px 7px;
     font-size: 12px;
     margin-left: 8px;
     color: #51aded;
     border: 1px solid #51aded;
     top: -2px;
+    transition: 0.5s;
+    transform: scale(0, 0);
 }
 
 .post-tag:hover {
@@ -197,6 +240,9 @@ body {
 }
 
 .all-tags a {
+    display: inline-block;
+    transform: scale(0, 0);
+    transition: 0.5s;
     padding: 8px;
     background-color: #f6f6f6;
     color: #999;

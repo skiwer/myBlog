@@ -30,4 +30,10 @@ setTimeout(function() {
     $("#tags").css({
         "opacity": 1
     });
+    $(".post-tag").css({
+        "transform": "scale(1,1)"
+    });
+    $(".all-tags a").css({
+        "transform": "scale(1,1)"
+    });
 }, 500);

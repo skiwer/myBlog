@@ -3,6 +3,23 @@ a {
     text-decoration: none !important;
 }
 
+.page-heading h1 img {
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0) !important;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.page-heading h1 img:hover {
+    transform: rotate(360deg) scale(1.2, 1.2);
+}
+
 .container p,
 .container li {
     font-family: 'Microsoft YaHei';

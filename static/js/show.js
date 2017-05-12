@@ -99,15 +99,15 @@ function addMainComment(figureurl, nickname, time, comment, sequence, id) {
                                 <div class="head">
                                     <img src="` + figureurl + `" alt="figure" />
                                 </div>
+
+                                <div class="user-info"><span class="main-user">` + nickname + `</span></div>
                                 <div class="cmt-content">` + comment + `</div>
                                 <div class="cmt-meta">
-                                    <span class="main-user">` + nickname + `</span>
                                     <span class="main-date">` + time + `</span>
                                     <span class="main-post-cmt" onclick="showMainFrame(this)" id="main-` + id + `">回复</span>
                                 </div>
 
                     </div>
-                    <hr>
                 </div>`;
     $("#postComments").prepend(html);
 }
@@ -122,11 +122,13 @@ function addSubComment(nickname_from, nickname_to, figure, time, comment, is_fro
                 <div class="child-head">
                     <img src="` + figure + `" alt="figure" />
                 </div>
-                <div class="child-content">` + comment + `</div>
-                <div class="child-meta">
+                <div class="child-user-info">
                     <span class="answerby">` + nickname_from + `</span>
                     <span>回复</span>
                     <span class="answerto">` + nickname_to + `</span>
+                </div>
+                <div class="child-content">` + comment + `</div>
+                <div class="child-meta">
                     <span class="child-date">` + time + `</span>
                     <span class="child-post-cmt" onclick="showSubFrame(this)" id="frommain-` + id + `">回复</span>
                 </div>
@@ -296,7 +298,7 @@ $(".comment").keypress(function() {
 });
 $(window).scroll(function() {
     $(".rollbar").css("display", "block");
-    setTimeout(function() {
-        $(".rollbar").css("display", "none");
-    }, 2000);
+    // setTimeout(function() {
+    //     $(".rollbar").css("display", "none");
+    // }, 2000);
 });
