@@ -4,6 +4,11 @@ textarea {
     text-decoration: none !important;
 }
 
+.post-heading h1,
+.post-heading span {
+    visibility: hidden;
+}
+
 #title,
 #date,
 #content {
@@ -174,12 +179,16 @@ blockquote p {
 .cmt {
     margin-left: 45px;
     padding: 0;
-    border: 1px solid #f5f5f5;
+    border: 1px solid #e7eaf1;
     border-radius: 2px;
     overflow: hidden;
     box-shadow: 0 2px 2px rgba(0, 0, 0, .15);
     transition: 0.5s;
     background-color: #fff;
+}
+
+#com .cmt {
+    margin-left: 0;
 }
 
 .cmt:hover,
@@ -203,7 +212,7 @@ blockquote p {
     height: 100%;
     padding: 0;
     text-align: right;
-    border-top: 1px solid #f5f5f5;
+    border-top: 1px solid #e7eaf1;
 }
 
 .submit {
@@ -211,7 +220,7 @@ blockquote p {
     padding: 5px;
     width: 100px;
     border: none;
-    border-left: 1px solid #f5f5f5;
+    border-left: 1px solid #e7eaf1;
     color: #787968;
     outline: none;
     height: 35px;
@@ -418,6 +427,10 @@ blockquote p {
 }
 
 @media screen and (min-width: 760px) {
+    .commentList img:hover,
+    .box img:hover {
+        transform: rotate(360deg) scale(1.2, 1.2);
+    }
     .rollbar {
         display: block !important;
     }

@@ -16,8 +16,10 @@ a {
     transition: all 1s ease-in-out;
 }
 
-.page-heading h1 img:hover {
-    transform: rotate(360deg) scale(1.2, 1.2);
+@media screen and (min-width: 760px) {
+    .page-heading h1 img:hover {
+        transform: rotate(360deg) scale(1.2, 1.2);
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
