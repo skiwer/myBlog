@@ -8,6 +8,7 @@ a {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    border: 3px solid #fff;
     cursor: pointer;
     -webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
@@ -18,7 +19,7 @@ a {
 
 @media screen and (min-width: 760px) {
     .page-heading h1 img:hover {
-        transform: rotate(360deg) scale(1.2, 1.2);
+        transform: rotate(360deg);
     }
 }
 
